@@ -4,7 +4,7 @@ Para contribuir com o TW Livre (TWL), siga as orientações deste documento.
 
 Se você nunca contribuiu ou não se sente confortável com o GitHub e open source, você pode praticar com o projeto [First Contributions](https://github.com/firstcontributions/first-contributions).
 
-Antes de contribuir, leia o [Código de Conduta do TWL](conduta.md).
+Antes de contribuir, leia também o [Código de Conduta do TWL](conduta.md).
 
 ## Issues
 
@@ -67,7 +67,7 @@ O curso do TWL é uma tradução e adaptação do [treinamento de TW em inglês 
 
 #### Tutoriais / outros assuntos
 
-ALém do curso de essenciais em Technical Writing, o objetivo do projeto é reunir materiais adicionais que tenham alguma relação com TW.
+Além do curso de essenciais em Technical Writing, o objetivo do projeto é reunir materiais adicionais que tenham alguma relação com TW.
 
 Hoje o site conta somente com o curso essencial de Technical Writing, mas alguns tutoriais adicionais já estão sendo planejados.
 
@@ -81,7 +81,7 @@ Sugestões de temas são bem-vindas, mas procure ficar dentro dos seguintes assu
   * Git e GitHub
 * Linguagens:
   * Markdown
-  * HTML, CSS e JavaScript
+  * HTML, CSS e JavaScript (com foco na criação de conteúdo)
 * Processos:
   * Controle de versão e docs-as-code
   * Open source
