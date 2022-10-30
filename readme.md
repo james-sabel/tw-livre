@@ -1,6 +1,6 @@
 # TW Livre - technical writing livre e open-source <3
 
-<img src="res/img/logo-tw-livre-transparent.png" alt="Logo TW Livre" title="Logo TW Livre" style="max-width: 10%; height: auto;" />
+<img src="res/img/logo-tw-livre-sm.png" />
 
 ## Sobre o projeto
 
