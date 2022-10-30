@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+
+<head>
+    <!-- incluir conteúdo do header do site -->
+    {% include head.html %}
+    <link href="/res/css/curso.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- incluir a barra de navegação do site -->
+    {% include navbar.html %}
+
+    <div class="row curso-container">
+        <div class="col-sm-2 sidebar">
+            {% include sidebar-modulo-2.html %}
+        </div>
+        <div class="col-sm-10 curso-conteudo">
+            {{ content }}
+        </div>
+    </div>
+
+    <!-- incluir o rodapé do site -->
+    {% include footer.html %}
+
+</body>
+
+</html>

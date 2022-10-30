@@ -1,0 +1,260 @@
+I"`0<h1 id="voz-ativa-vs-voz-passiva">Voz ativa vs. voz passiva</h1>
+
+<div class="alerta alerta-simples">
+    <p>Tempo estimado: 15 minutos</p>
+</div>
+
+<p>A grande maioria das frases na redação técnica deve estar na voz ativa. Esta unidade ensina como fazer o seguinte:</p>
+
+<ul>
+  <li>Distinguir a voz passiva da voz ativa.</li>
+  <li>Converter a voz passiva em voz ativa, porque a voz ativa geralmente é mais clara.</li>
+</ul>
+
+<p>Primeiro, assista a este vídeo, apenas para dar o pontapé inicial <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nG6DhoFt938" title="Vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><em><strong>Descrição do vídeo para acessibilidade</strong>: o vídeo começa mostrando a frase “Voz ativa: O jogador chuta a bola de futebol” e em seguida mostra um jogador em um campo de futebol, chutando uma bola. Depois, mostra a frase “Voz passiva: A bola de futebol é chutada pelo jogador” e em seguida a câmera está focada na bola sendo chutada.</em></p>
+
+<h2 id="distinguir-a-voz-ativa-da-voz-passiva-em-frases-simples">Distinguir a voz ativa da voz passiva em frases simples</h2>
+
+<p>Em uma sentença de voz ativa, um ator faz uma ação com um alvo. Ou seja, uma sentença de voz ativa segue esta fórmula:</p>
+
+<blockquote>
+  <p>Frase de voz ativa = ator + verbo + alvo</p>
+</blockquote>
+
+<p>Uma frase na voz passiva inverte a fórmula. Ou seja, uma frase na voz passiva normalmente segue a seguinte fórmula:</p>
+
+<blockquote>
+  <p>Frase de voz passiva = alvo + verbo + ator</p>
+</blockquote>
+
+<h3 id="exemplo-de-voz-ativa">Exemplo de voz ativa</h3>
+
+<p>Por exemplo, aqui está uma frase de voz curta e ativa:</p>
+
+<blockquote>
+  <p>O gato devorou a ração.</p>
+</blockquote>
+
+<ul>
+  <li>ator: gato</li>
+  <li>verbo: devorou</li>
+  <li>alvo: ração</li>
+</ul>
+
+<h3 id="exemplos-de-voz-passiva">Exemplos de voz passiva</h3>
+
+<p>Por outro lado, aqui está a mesma frase na voz passiva:</p>
+
+<blockquote>
+  <p>A ração foi devorada pelo gato.</p>
+</blockquote>
+
+<ul>
+  <li>alvo: ração</li>
+  <li>verbo passivo: devorada</li>
+  <li>ator: gato</li>
+</ul>
+
+<p>Algumas frases de voz passiva omitem um ator. Por exemplo:</p>
+
+<blockquote>
+  <p>A ração foi devorada.</p>
+</blockquote>
+
+<ul>
+  <li>ator: <em>desconhecido</em></li>
+  <li>verbo passivo: foi devorada</li>
+  <li>alvo: ração</li>
+</ul>
+
+<p>Quem ou o que devorou a ração? Um gato? Um cachorro? Um T-Rex? Os leitores teriam que adivinhar. Boas frases na documentação técnica identificam quem está fazendo o que para quem.</p>
+
+<h2 id="reconhecer-verbos-passivos">Reconhecer verbos passivos</h2>
+
+<p>Os verbos passivos geralmente têm a seguinte fórmula:</p>
+
+<blockquote>
+  <p>verbo passivo = forma de ser + verbo no particípio passado</p>
+</blockquote>
+
+<p>Embora a fórmula anterior pareça assustadora, na verdade é bem simples:</p>
+
+<ul>
+  <li>Uma <strong>forma de <em>ser</em></strong> em um verbo passivo é tipicamente uma das seguintes palavras:
+    <ul>
+      <li>é/são</li>
+      <li>foi/foram</li>
+    </ul>
+  </li>
+  <li>Um verbo de <strong>particípio passado</strong> é tipicamente um verbo na sua forma passada e é nominal, ou seja, tem o papel de substituir um nome. Por exemplo, os seguintes são verbos de particípio passado:
+    <ul>
+      <li>interpretado</li>
+      <li>gerado</li>
+      <li>formado</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Colocar a forma de <em>ser</em> e o particípio passado juntos produz verbos passivos, como o seguinte:</p>
+
+<ul>
+  <li>foi interpretado</li>
+  <li>é gerado</li>
+  <li>foi formado</li>
+  <li>é congelado</li>
+</ul>
+
+<p>Se a frase contém um ator, uma preposição geralmente segue o verbo passivo. (Essa preposição costuma ser uma pista importante para ajudá-lo a identificar a voz passiva.) Os exemplos a seguir combinam o verbo passivo e a preposição:</p>
+
+<ul>
+  <li>foi interpretado como</li>
+  <li>é gerado por</li>
+  <li>foi formado por</li>
+  <li>é congelado por</li>
+</ul>
+
+<h3 id="os-verbos-imperativos-são-tipicamente-ativos">Os verbos imperativos são tipicamente ativos</h3>
+
+<p>É fácil classificar erroneamente frases que começam com um <strong>verbo imperativo</strong> como passivas. Um verbo imperativo é um comando. Muitos itens em listas numeradas começam com verbos imperativos. Por exemplo, <em>Abra</em> e <em>Defina</em> na lista a seguir são verbos imperativos:</p>
+
+<ol>
+  <li>Abra o arquivo de configuração.</li>
+  <li>Defina a variável <code class="language-plaintext highlighter-rouge">Frombus</code> como <code class="language-plaintext highlighter-rouge">False</code>.</li>
+</ol>
+
+<p>As sentenças que começam com um verbo no imperativo geralmente estão na voz ativa, embora não mencionem explicitamente um ator. Em vez disso, o ator fica <em>implícito</em> nas frases que começam com um verbo imperativo. O ator implícito é <strong>você</strong>.</p>
+
+<h3 id="exercício">Exercício</h3>
+
+<p>Marque cada uma das seguintes frases como <strong>Passiva</strong> ou <strong>Ativa</strong>:</p>
+
+<ol>
+  <li>O <code class="language-plaintext highlighter-rouge">MutableInput</code> fornece acesso somente como leitura.</li>
+  <li>O acesso somente como leitura é fornecido pelo <code class="language-plaintext highlighter-rouge">MutableInput</code>.</li>
+  <li>O desempenho foi medido.</li>
+  <li>Python foi inventado por Guido van Rossum no século XX.</li>
+  <li>David Korn descobriu o KornShell por acaso.</li>
+  <li>Essas informações são usadas pela equipe de aplicação de políticas.</li>
+  <li>Clique no botão Enviar.</li>
+  <li>A órbita foi calculada por Katherine Johnson.</li>
+</ol>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<ol>
+  <li><b>Ativa</b>. O <code>MutableInput</code> fornece acesso somente leitura.</li>
+  <li><b>Passiva</b>. O acesso somente como leitura é fornecido pelo <code>MutableInput</code>.</li>
+  <li><b>Passiva</b>. O desempenho foi medido.</li>
+  <li><b>Passiva</b>. Python foi inventado por Guido van Rossum no século XX.</li>
+  <li><b>Ativa</b>. David Korn descobriu o KornShell por acaso.</li>
+  <li><b>Passiva</b>. Essas informações são usadas pela equipe de aplicação de políticas.</li>
+  <li><b>Ativa</b>. Clique no botão Enviar. (<i>Clique</i> é um verbo imperativo.)</li>
+  <li><b>Passiva</b>. A órbita foi calculada por Katherine Johnson.</li>
+</ol>
+
+</details>
+
+<h2 id="distinguir-a-voz-ativa-da-voz-passiva-em-frases-mais-complexas">Distinguir a voz ativa da voz passiva em frases mais complexas</h2>
+
+<p>Muitas frases contêm vários verbos, onde alguns são ativos e alguns são passivos. Por exemplo, a frase a seguir contém dois verbos na voz passiva:</p>
+
+<p><img src="/res/img/curso/passiva-passiva.png" alt="O código [alvo] é interpretado [verbo passivo] em Python [ator], mas o código [alvo] é compilado [verbo passivo] em C++ [ator]." title="O código [alvo] é interpretado [verbo passivo] em Python [ator], mas o código [alvo] é compilado [verbo passivo] em C++ [ator]." /></p>
+
+<p>Aqui está a mesma frase, parcialmente convertida em voz ativa:</p>
+
+<p><img src="/res/img/curso/ativa-passiva.png" alt="Python [ator] interpreta [verbo ativo] o código [alvo], mas o código [alvo] é compilado [verbo passivo] em C++ [ator]." title="Python [ator] interpreta [verbo ativo] o código [alvo], mas o código [alvo] é compilado [verbo passivo] em C++ [ator]." /></p>
+
+<p>E aqui está a mesma frase, agora totalmente convertida em voz ativa:</p>
+
+<p><img src="/res/img/curso/ativa-ativa.png" alt="Python [ator] interpreta [verbo ativo] o código [alvo], mas C++ [ator] compila [verbo ativo] o código [alvo]." title="Python [ator] interpreta [verbo ativo] o código [alvo], mas C++ [ator] compila [verbo ativo] o código [alvo]." /></p>
+
+<h3 id="exercício-1">Exercício</h3>
+
+<p>Cada uma das frases a seguir contém dois verbos. Classifique cada um dos verbos nas frases a seguir como ativo ou passivo. Por exemplo, se o primeiro verbo for ativo e o segundo for passivo, escreva <strong>Ativo</strong>, <strong>Passivo</strong>.</p>
+
+<ol>
+  <li>A equipe de controle de qualidade adora picolé, mas os redatores preferem sorvete.</li>
+  <li>As métricas de desempenho são exigidas pela equipe, embora eu prefira palpites malucos.</li>
+  <li>Quando engenheiras de software tentam algo novo e inovador, uma recompensa deve ser dada.</li>
+</ol>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<ol>
+  <li><b>Ativo, Ativo</b>. equipe de controle de qualidade adora picolé, mas os redatores preferem sorvete.</li>
+  <li><b>Passivo, Ativo</b>. As métricas de desempenho são exigidas pela equipe, embora eu prefira palpites malucos.</li>
+  <li><b>Ativo, Passivo</b>. Quando engenheiras de software tentam algo novo e inovador, uma recompensa deve ser dada.</li>
+</ol>
+
+</details>
+
+<h2 id="prefira-a-voz-ativa-à-voz-passiva">Prefira a voz ativa à voz passiva</h2>
+
+<p>Use a voz ativa na maioria das vezes. Use a voz passiva com moderação. A voz ativa oferece as seguintes vantagens:</p>
+
+<ul>
+  <li>A maioria dos leitores converte mentalmente a voz passiva em voz ativa. Por que sujeitar seus leitores a um tempo extra de processamento? Aderindo à voz ativa, os leitores podem pular o estágio do pré-processador e ir direto para a compilação.</li>
+  <li>A voz passiva ofusca suas ideias, virando frases de cabeça para baixo. A voz passiva relata a ação indiretamente.</li>
+  <li>Algumas frases de voz passiva omitem completamente um ator, o que força o leitor a adivinhar a identidade do ator.</li>
+  <li>A voz ativa é geralmente mais curta que a voz passiva.</li>
+</ul>
+
+<h3 id="relatórios-de-pesquisa-científica-material-opcional">Relatórios de pesquisa científica (material opcional)</h3>
+
+<p>A voz passiva corre solta em certos relatórios de pesquisas científicas. Nesses relatórios de pesquisa, os pesquisadores e métodos que foram usados geralmente somem, levando a frases passivas que começam assim:</p>
+
+<ul>
+  <li>Foi sugerido que…</li>
+  <li>Os dados foram tirados…</li>
+  <li>As estatísticas foram calculadas…</li>
+  <li>Os resultados foram avaliados.</li>
+</ul>
+
+<p>Sabemos quem está fazendo o que a quem? Não. A voz passiva de alguma forma torna a informação mais objetiva? Não.</p>
+
+<p>Muitas revistas científicas adotaram a voz ativa. Encorajamos o resto das pessoas a se juntar à busca por clareza.</p>
+
+<h3 id="exercício-2">Exercício</h3>
+
+<p>Reescreva as seguintes frases de voz passiva como voz ativa. Apenas parte de algumas frases estão na voz passiva; garanta que todas as partes terminem como voz ativa:</p>
+
+<ol>
+  <li>As bandeiras não foram analisadas pelo Mungifier.</li>
+  <li>Um wrapper é gerado pelo processo de registro de Op.</li>
+  <li>Apenas um experimento por camada é selecionado pelo sistema Frombus.</li>
+  <li>As métricas de qualidade são identificadas por asteriscos; o negrito identifica métricas ruins.</li>
+</ol>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<ol>
+  <li>O Mungifier não analisou as bandeiras.</li>
+  <li>O processo de registro de Op gera um wrapper.</li>
+  <li>O sistema Frombus seleciona apenas um experimento por camada.</li>
+  <li>Asteriscos identificam métricas de qualidade; o negrito identifica métricas ruins.</li>
+</ol>
+
+</details>
+
+<hr />
+
+<p class="proxima-unidade"><b>Próxima unidade:</b> <a href="/curso/modulo-1/frases-claras/"><button type="button" class="btn btn-dark">Frases claras</button></a></p>
+
+<hr />
+
+<p style="font-size: 12px"><i>O conteúdo desta página é uma tradução livre e adaptada. O material original está disponível em inglês no <a href="https://developers.google.com/tech-writing" target="_blank">Google Developers</a> sob a licença <a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR" target="_blank">Creative Commons (CC BY 4.0)</a>.</i></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>“Dar o pontapé inicial” é uma expressão idiomática que significa “começar algo”. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

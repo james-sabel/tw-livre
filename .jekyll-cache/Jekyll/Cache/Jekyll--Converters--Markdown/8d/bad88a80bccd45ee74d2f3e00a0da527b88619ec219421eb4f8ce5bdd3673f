@@ -1,0 +1,54 @@
+I"�
+<h1 id="markdown-opcional">Markdown (Opcional)</h1>
+
+<div class="alerta alerta-simples">
+    <p>Tempo estimado: 10 minutos</p>
+</div>
+
+<p><strong>Markdown</strong> é uma linguagem de marcação leve que muitos profissionais técnicos usam para criar e editar documentos técnicos. Com o Markdown, você escreve texto em um editor de texto simples (como Vim ou Emacs), inserindo caracteres especiais para criar cabeçalhos, negrito, marcadores e assim por diante. Por exemplo, o exemplo a seguir mostra um documento técnico simples formatado com Markdown:</p>
+
+<blockquote>
+  <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## bash e ksh
+
+**bash** se parece muito com um *shell* antigo chamado **ksh**. A diferença chave
+*prática* entre os dois *shells* é a seguinte:
+
+* Mais pessoas conhecem o bash do que o ksh, então é mais fácil obter ajuda para problemas
+  com o bash do que problemas com ksh.
+</code></pre></div>  </div>
+</blockquote>
+
+<p>A versão renderizada do documento técnico anterior tem a seguinte aparência:</p>
+
+<blockquote>
+  <h2 id="bash-e-ksh">bash e ksh</h2>
+
+  <p><strong>bash</strong> se parece muito com um <em>shell</em> antigo chamado <strong>ksh</strong>. A diferença chave <em>prática</em> entre os dois <em>shells</em> é a seguinte:</p>
+
+  <ul>
+    <li>Mais pessoas conhecem o bash do que o ksh, então é mais fácil obter ajuda para problemas com o bash do que problemas com ksh.</li>
+  </ul>
+</blockquote>
+
+<p>Um interpretador de Markdown converte arquivos Markdown em HTML. Os navegadores podem exibir o HTML resultante para os leitores.</p>
+
+<p>Recomendamos que você se familiarize com o Markdown seguindo um dos seguintes tutoriais:</p>
+
+<ul>
+  <li><a href="https://www.markdowntutorial.com">MarkdownTutorial.com</a></li>
+  <li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
+</ul>
+
+<h2 id="o-que-vem-a-seguir">O que vem a seguir?</h2>
+
+<p><strong>Parabéns: você concluiu o conteúdo do Módulo 1.</strong></p>
+
+<ul>
+  <li>Uma rápida compilação dos tópicos abordados no Módulo 1 está disponível na página <a href="/curso/modulo-1/resumo/">Resumo</a>.</li>
+  <li>Continue aprendendo sobre Technical Writing com o <a href="/curso/modulo-2/introducao/">Módulo 2</a> do curso.</li>
+</ul>
+
+<hr />
+
+<p style="font-size: 12px"><i>O conteúdo desta página é uma tradução livre e adaptada. O material original está disponível em inglês no <a href="https://developers.google.com/tech-writing" target="_blank">Google Developers</a> sob a licença <a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR" target="_blank">Creative Commons (CC BY 4.0)</a>.</i></p>
+:ET

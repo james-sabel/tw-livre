@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+
+<head>
+    <!-- incluir conteúdo do header do site -->
+    {% include head.html %}
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- incluir a barra de navegação do site -->
+    {% include navbar.html %}
+
+    <!-- conteúdo principal da página -->
+    <main class="flex-shrink-0">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <!-- incluir o rodapé do site -->
+    {% include footer.html %}
+
+</body>
+
+</html>

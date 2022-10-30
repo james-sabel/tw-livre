@@ -1,0 +1,164 @@
+h2 {
+    margin-top: 20px;
+}
+
+.curso-container {
+    padding: 100px 15px 80px;
+}
+
+.sidebar {
+    max-height: 900px;
+    overflow: scroll;
+    border-right: solid 1px #DADBDC;
+}
+
+.curso-conteudo {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .curso-conteudo {
+        width: 60%;
+        margin-left: 60px;
+    }
+}
+
+.curso-titulo {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #bffff1;
+}
+
+.navegacao {
+    height: 80%;
+}
+
+.navegacao a {
+    display: block;
+    color: #333333;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navegacao a.active {
+    background-color: #00A360;
+    color: white;
+}
+
+.navegacao a:hover:not(.active) {
+    background-color: #00A360;
+    color: white;
+}
+
+.proxima-unidade {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-secao {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* DESTAQUES E ALERTAS */
+
+.alerta {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+    border-style: none;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+.alerta p {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.alerta-simples {
+    border-left-color: gray;
+    background-color: #f5f5f5;
+}
+
+.alerta-azul {
+    border-left-color: #00b6ff;
+    background-color: #d6f3ff;
+}
+
+.alerta-amarelo {
+    border-left-color: #984A06;
+    background-color: #FFF9C4;
+}
+
+.alerta-vermelho {
+    border-left-color: #984A06;
+    background-color: #E14D45;
+    color: #fff;
+}
+
+/* HIGHLIGHTS */
+
+.highlight-azul {
+    color: #01579B;
+    background-color: #B3E5FC;
+}
+
+.highlight-amarelo {
+    color: #984A06;
+    background-color: #FFF9C4;
+}
+
+.highlight-verde {
+    color: #33691E;
+    background-color: #DCEDC8;
+}
+
+/* BLOCKQUOTES */
+
+blockquote {
+    background-color: #F8F9FA;
+    border: solid 1px #d3d3d3;
+    padding: 10px;
+}
+
+blockquote p {
+    vertical-align: middle;
+}
+
+/* SUMMARY */
+
+details {
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+}
+
+details>summary {
+    font-weight: bold;
+    color: #00A360;
+}
+
+details>p,
+details>ul,
+details>ol,
+details>blockquote {
+    margin-top: 15px;
+}
+
+.imagem-curso {
+    max-width: 90%;
+    height: auto;
+}
+
+/* CÓDIGO */
+
+.language-text,
+.language-html,
+.terminal {
+    background-color: #1D1E22;
+    color: #fff;
+    padding: 5px;
+}

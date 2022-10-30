@@ -1,0 +1,206 @@
+I"�,<h1 id="palavras">Palavras</h1>
+
+<div class="alerta alerta-simples">
+    <p>Tempo estimado: 10 minutos</p>
+</div>
+
+<p>Nós pesquisamos documentações extensivamente, e acontece que as melhores frases do mundo consistem principalmente de palavras. (<em>Sarcasmo…</em>)</p>
+
+<h2 id="defina-termos-novos-ou-desconhecidos">Defina termos novos ou desconhecidos</h2>
+
+<p>Ao escrever ou editar, aprenda a reconhecer termos que podem ser desconhecidos para alguns ou todos os seus públicos-alvo. Ao identificar esse termo, adote uma das duas táticas a seguir:</p>
+
+<ul>
+  <li>Se o termo já existir, vincule a uma boa explicação existente. (Não reinvente a roda.)</li>
+  <li>Se o seu documento estiver introduzindo o termo pela primeira vez, defina o termo. Se o seu documento estiver introduzindo muitos termos, reúna as definições em um glossário.</li>
+</ul>
+
+<h2 id="use-termos-de-forma-consistente">Use termos de forma consistente</h2>
+
+<p>Se você alterar o nome de uma variável no meio de um método, seu código não será compilado. Da mesma forma, se você renomear um termo no meio de um documento, suas ideias não serão compiladas (na cabeça de seus usuários).</p>
+
+<p>A moral: aplique a mesma palavra ou termo sem ambiguidade e de forma consistente em todo o seu documento. Depois de nomear um componente <strong>coisa</strong>, não o renomeie como <strong>treco</strong>. Por exemplo, o parágrafo a seguir renomeia erroneamente <strong>Buffers de Protocolo</strong> para <strong>protobufs</strong>:</p>
+
+<blockquote>
+  <p>Os Buffers de Protocolo têm sua própria linguagem de definição. Blá blá blá. E é por isso que os protobufs venceram tantas feiras municipais.</p>
+</blockquote>
+
+<p>George Fairbanks, um engenheiro de software do Google, fez esta excelente observação sobre nomenclatura consistente:</p>
+
+<blockquote>
+  <p>Quando encontro duas palavras que parecem ser sinônimos, me pergunto se o autor está tentando sinalizar uma distinção sutil que preciso buscar e entender.</p>
+</blockquote>
+
+<p>Sim, a redação técnica é cruel e restritiva, mas pelo menos a redação técnica oferece uma excelente solução alternativa. Ou seja, ao introduzir um nome de conceito ou nome de produto prolixo, você também pode especificar uma versão abreviada desse nome. Em seguida, você pode usar esse nome abreviado em todo o documento. Por exemplo, o parágrafo a seguir está bom:</p>
+
+<blockquote>
+  <p><strong>Buffers de Protocolo</strong> (ou <strong>protobufs</strong> para abreviar) têm sua própria linguagem de definição. Blá blá blá. E é por isso que os protobufs venceram tantas feiras municipais.</p>
+</blockquote>
+
+<h2 id="use-siglas-corretamente">Use siglas corretamente</h2>
+
+<p>No uso inicial de uma sigla desconhecida em um documento ou seção, descreva o termo completo e, em seguida, coloque a sigla entre parênteses. Coloque a versão por extenso e a sigla em negrito. Por exemplo:</p>
+
+<blockquote>
+  <p>Este documento é para engenheiros que são novos na <strong>Rede Tátil Telecinética</strong> (<strong>TTN</strong>) ou precisam entender como solicitar peças de reposição TTN por meio de movimentos dos dedos.</p>
+</blockquote>
+
+<p>Você pode então usar a sigla daqui para frente, como no exemplo a seguir:</p>
+
+<blockquote>
+  <p>Se não existir nenhuma entrada de cache, o Mixer chama o <strong>OttoGroup Server</strong> (<strong>OGS</strong>) para buscar Ottos para a solicitação. O OGS é um repositório que contém todos os Ottos servíveis. O OGS está organizado em uma estrutura de árvore lógica, com um nó raiz e dois níveis de nós derivados. A raiz OGS encaminha a solicitação para as derivações e coleta as respostas.</p>
+</blockquote>
+
+<p>Não alterne entre a sigla e a versão por extenso no mesmo documento.</p>
+
+<h3 id="usar-a-sigla-ou-o-termo-completo">Usar a sigla ou o termo completo?</h3>
+
+<p>Claro, você pode introduzir e usar siglas do jeito certo, mas você <em>deve</em> usar siglas? Bem, siglas reduzem o tamanho da frase. Por exemplo, <em>TTN</em> é duas palavras mais curta do que <em>Rede Tátil Telecinética</em>. No entanto, siglas são realmente apenas uma camada de abstração; os leitores devem expandir mentalmente as siglas recém aprendidas para o termo completo. Por exemplo, os leitores convertem <em>TTN</em> para <em>Rede Tátil Telecinética</em> em suas cabeças, então a sigla “mais curta” na verdade demora um pouco mais para ser processada do que o termo completo.</p>
+
+<p>Siglas muito usadas ​criam a sua própria identidade. Após várias ocorrências, os leitores geralmente param de expandir as siglas para o termo completo. Muitos desenvolvedores da Web, por exemplo, esqueceram qual é a versão por extenso de <em>HTML</em>.</p>
+
+<p>Aqui estão as diretrizes para siglas:</p>
+
+<ul>
+  <li>Não estabeleça siglas que seriam usadas poucas vezes.</li>
+  <li>Estabeleça siglas que atendam a ambos os critérios a seguir:
+    <ul>
+      <li>A sigla é significativamente mais curta do que o termo completo.</li>
+      <li>A sigla aparece muitas vezes no documento.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="exercício">Exercício</h3>
+
+<p>Corrija a seguinte passagem. Suponha que esta passagem seja a primeira menção ao termo <strong>MapReduce</strong> no documento e que <strong>MR</strong> seja a melhor abreviação.</p>
+
+<blockquote>
+  <p>Jeff Dean inventou o MapReduce em 1693, implementando o algoritmo em um computador baseado em silício fabricado com areia de praia, papel encerado, uma caneta e uma torradeira. Esta versão do MR bateu vários recordes mundiais de desempenho até 2014.</p>
+</blockquote>
+
+<p>(Observe que a passagem anterior pretende ser humorística, não factual.)</p>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<p>Você pode tomar algumas abordagens diferentes aqui. Uma abordagem é associar a sigla <i>MR</i> ao termo completo e depois usar essa sigla:</p>
+
+<blockquote>Jeff Dean inventou o <b>MapReduce</b> (<b>MR</b>) em... Esta versão do MR bateu vários...</blockquote>
+
+<p>Alternativamente, você pode decidir que abreviar uma passagem tão curta sobrecarrega muito os leitores, então você simplesmente usará o termo <i>MapReduce</i> completo todas as vezes:</p>
+
+<blockquote>Jeff Dean inventou o <b>MapReduce</b> em... Esta versão do MapReduce bateu vários...</blockquote>
+
+<p>Aliás, um redator técnico mais experiente também converteria "areia de praia, papel encerado, uma caneta e uma torradeira" em uma lista com marcadores. Você aprenderá mais sobre isso na <a href="/curso/modulo-1/listas-tabelas/">lição de Listas e Tabelas</a>.</p>
+
+</details>
+
+<h2 id="identifique-os-pronomes-ambíguos">Identifique os pronomes ambíguos</h2>
+
+<p>Muitos pronomes apontam para um substantivo previamente mencionado. Assim como acontece com ponteiros na programação, os pronomes tendem a causar alguns erros. Usar pronomes incorretamente causa o equivalente a um erro de ponteiro nulo (<em>null pointer</em>) na cabeça de seus leitores. Em muitos casos, você deve simplesmente evitar o pronome e reutilizar o substantivo. No entanto, a utilidade de um pronome às vezes supera seu risco (como nesta frase).</p>
+
+<p>Considere as seguintes diretrizes de pronome:</p>
+
+<ul>
+  <li>Só use um pronome <em>depois</em> de introduzir o substantivo; nunca use o pronome antes de introduzir o substantivo.</li>
+  <li>Coloque o pronome o mais próximo possível do substantivo referente. Geralmente, se mais de cinco palavras separam o substantivo do pronome, é melhor repetir o substantivo em vez de usar o pronome.</li>
+  <li>Se você introduzir um segundo substantivo entre seu substantivo e seu pronome, reutilize seu substantivo em vez de usar um pronome.</li>
+</ul>
+
+<h3 id="isto-e-ele">Isto e ele</h3>
+
+<p>Os seguintes pronomes causam mais confusão na documentação técnica:</p>
+
+<ul>
+  <li>isto</li>
+  <li>ele(s), seu(s) e dele(s)</li>
+</ul>
+
+<p>Por exemplo, na frase a seguir, <strong>Ele</strong> se refere a Python ou a C++?</p>
+
+<blockquote>
+  <p>Python é interpretado, enquanto C++ é compilado. <strong>Ele</strong> tem um seguimento que é quase <em>cult</em>.</p>
+</blockquote>
+
+<p>Como outro exemplo, a que se refere a palavra <strong>seu</strong> na frase a seguir?</p>
+
+<blockquote>
+  <p>Tenha cuidado ao usar Frambus ou Carambola com HoobyScooby ou BoiseFram, porque um bug em <strong>seu</strong> núcleo pode causar desamizamento em massa acidental.</p>
+</blockquote>
+
+<h3 id="isso-e-aquilo">Isso e aquilo</h3>
+
+<p>Considere os seguintes pronomes também como problemáticos:</p>
+
+<ul>
+  <li>isso</li>
+  <li>aquilo</li>
+</ul>
+
+<p>Por exemplo, na frase ambígua a seguir, <strong>Isso</strong> pode se referir ao ID do usuário, à execução do processo ou a todos eles:</p>
+
+<blockquote>
+  <p>A execução do processo configura permissões e gera um ID do usuário. <strong>Isso</strong> permite que os usuários se autentiquem no aplicativo.</p>
+</blockquote>
+
+<p>Para ajudar os leitores, evite usar <strong>isso</strong> ou <strong>aquilo</strong> de forma que não esteja claro a que se referem. Use uma das seguintes táticas para esclarecer usos ambíguos de <strong>isso</strong> e <strong>aquilo</strong>:</p>
+
+<ul>
+  <li>Substitua <strong>isso</strong> ou <strong>aquilo</strong> pelo substantivo apropriado.</li>
+  <li>Coloque um substantivo imediatamente após <strong>isso</strong> ou <strong>aquilo</strong>.</li>
+</ul>
+
+<p>Substitua ou adicione termos explícitos conforme necessário, como nas seguintes reescritas da segunda frase do exemplo:</p>
+
+<blockquote>
+  <p>Esse ID de usuário permite que os usuários se autentiquem.</p>
+
+  <p>O processo de configuração de permissões permite que os usuários se autentiquem.</p>
+
+  <p>A combinação de permissões e um ID de usuário permite que os usuários se autentiquem.</p>
+</blockquote>
+
+<h3 id="exercício-1">Exercício</h3>
+
+<p>Identifique todos os significados possíveis para os pronomes ambíguos em cada uma das seguintes passagens:</p>
+
+<ol>
+  <li>
+    <p>Amanda e Felipe compartilham responsabilidades com Maísa e Carlos. Eles são os próximos de plantão.</p>
+  </li>
+  <li>
+    <p>Você pode importar os dados do Carambola através do seu arquivo de configuração ou dinamicamente em tempo de execução. Isso pode ser um risco de segurança.</p>
+  </li>
+</ol>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<ol>
+  <li>O pronome <b>eles</b> poderia se referir a qualquer um dos seguintes:
+    <ul>
+      <li>Amanda e Felipe</li>
+      <li>Maísa e Carlos</li>
+      <li>Amanda, Felipe, Maísa e Carlos</li>
+    </ul>
+  </li>
+  <li>O pronome <b>isso</b> pode se referir a qualquer um dos seguintes:
+    <ul>
+      <li>importar através do arquivo de configuração</li>
+      <li>importar dinamicamente em tempo de execução</li>
+      <li>ambas</li>
+    </ul>
+  </li>
+</ol>
+
+</details>
+
+<hr />
+
+<p class="proxima-unidade"><b>Próxima unidade:</b> <a href="/curso/modulo-1/voz-ativa/"><button type="button" class="btn btn-dark">Voz ativa vs. voz passiva</button></a></p>
+
+<hr />
+
+<p style="font-size: 12px"><i>O conteúdo desta página é uma tradução livre e adaptada. O material original está disponível em inglês no <a href="https://developers.google.com/tech-writing" target="_blank">Google Developers</a> sob a licença <a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR" target="_blank">Creative Commons (CC BY 4.0)</a>.</i></p>
+:ET

@@ -1,0 +1,38 @@
+I"(	<h1 id="resumo-do-módulo-2">Resumo do Módulo 2</h1>
+
+<div class="alerta alerta-simples">
+    <p>Tempo estimado: 1 minuto</p>
+</div>
+
+<p>O Módulo 2 cobriu as seguintes lições intermediárias de redação técnica:</p>
+
+<ul>
+  <li>Adote um guia de estilo.</li>
+  <li>Pense como seu público.</li>
+  <li>Leia documentos em voz alta (para você mesmo).</li>
+  <li>Retorne aos documentos bem depois de escrever o rascunho.</li>
+  <li>Encontre um bom editor para revisão em pares.</li>
+  <li>Esboce um documento. Alternativamente, escreva de forma livre e depois organize.</li>
+  <li>Dê uma introdução ao escopo de um documento e quaisquer pré-requisitos.</li>
+  <li>Prefira títulos baseados em tarefas.</li>
+  <li>Divulgue informações progressivamente (em algumas situações).</li>
+  <li>Considere escrever a legenda antes de criar a ilustração.</li>
+  <li>Restrinja a quantidade de informações em um único desenho.</li>
+  <li>Concentre a atenção do leitor na parte relevante de uma imagem ou diagrama, descrevendo a ideia principal na legenda ou adicionando uma sugestão visual à imagem.</li>
+  <li>Crie um código de exemplo conciso que seja fácil de entender.</li>
+  <li>Mantenha os comentários de código curtos, mas prefira clareza à brevidade.</li>
+  <li>Evite escrever comentários sobre código óbvio.</li>
+  <li>Concentre sua energia de comentários em qualquer coisa não intuitiva no código.</li>
+  <li>Forneça não apenas exemplos, mas também anti-exemplos.</li>
+  <li>Forneça exemplos de código que demonstrem uma variedade de complexidade.</li>
+  <li>Faça uma prática de revisão contínua.</li>
+  <li>Forneça diferentes tipos de documentação para diferentes categorias de usuários.</li>
+  <li>Compare e contraste com algo que os leitores já estão familiarizados.</li>
+  <li>Nos tutoriais, reforce os conceitos com exemplos.</li>
+  <li>Nos tutoriais, cite os problemas que os leitores podem encontrar.</li>
+</ul>
+
+<hr />
+
+<p style="font-size: 12px"><i>O conteúdo desta página é uma tradução livre e adaptada. O material original está disponível em inglês no <a href="https://developers.google.com/tech-writing" target="_blank">Google Developers</a> sob a licença <a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR" target="_blank">Creative Commons (CC BY 4.0)</a>.</i></p>
+:ET

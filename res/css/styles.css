@@ -1,0 +1,96 @@
+/* PÁGINAS GERAIS DO SITE */
+
+main>.container {
+    padding: 100px 15px 80px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-dark {
+    background-color: #00A360;
+    border: none;
+}
+
+.btn-xl {
+    padding: 15px 25px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.bigger {
+    /* Formata os parágrafos de introdução */
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.marcador {
+    /* Grifa uma frase no meio do texto */
+    background-color: #bffff1;
+}
+
+.card-img-top {
+    /* Ajusta o tamanho das imagens nos cards */
+    max-width: 85%;
+    height: auto;
+}
+
+/* OCULTAR ELEMENTOS EM TELAS MENORES */
+
+.hide-mobile {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .hide-mobile {
+        display: block;
+    }
+}
+
+/* SEÇÕES NA HOME DO SITE */
+
+.home-section {
+    width: 100vw;
+    min-height: 400px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.home-inverted {
+    background-color: #333333;
+    color: #fff
+}
+
+.home-logo {
+    max-width: 40%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .home-logo {
+        max-width: 10%;
+    }
+}
+
+.text-decoration-none {
+    color: #00A360;
+}
+
+a.text-decoration-none:hover {
+    color: #333333;
+}

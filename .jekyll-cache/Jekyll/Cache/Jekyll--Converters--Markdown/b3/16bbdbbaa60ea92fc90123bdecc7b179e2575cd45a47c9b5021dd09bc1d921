@@ -1,0 +1,237 @@
+I"�0<h1 id="pontuação-opcional">Pontuação (Opcional)</h1>
+
+<div class="alerta alerta-simples">
+    <p>Tempo estimado: 5 minutos</p>
+</div>
+
+<p>Esta unidade opcional fornece uma atualização rápida dos sinais de pontuação.</p>
+
+<h2 id="vírgulas">Vírgulas</h2>
+
+<p>As linguagens de programação impõem regras claras sobre pontuação. Em português, por outro lado, as regras sobre vírgulas são um pouco mais nebulosas. Como diretriz, insira uma vírgula sempre que um leitor pausaria naturalmente em algum lugar dentro de uma frase. A pausa para uma vírgula é mais curta do que para um ponto final. Por exemplo, se você ler a frase a seguir em voz alta, provavelmente descansará brevemente antes da palavra <em>apenas</em>:</p>
+
+<blockquote>
+  <p>C se comporta como uma linguagem de nível médio, apenas alguns passos acima na abstração da linguagem assembly.</p>
+</blockquote>
+
+<p>Algumas situações requerem uma vírgula. Por exemplo, use vírgulas para separar itens em uma lista incorporada como a seguir:</p>
+
+<blockquote>
+  <p>Nossa empresa usa C++, Python, Java, e JavaScript.</p>
+</blockquote>
+
+<p>Você pode estar se perguntando sobre a vírgula final de uma lista, aquela inserida entre os itens N-1 e N. Essa vírgula – conhecida como <strong>vírgula serial</strong> ou <strong>vírgula de Oxford</strong> – é controversa. Ela é mais comum na língua inglesa do que na portuguesa. No português, fornecer essa vírgula final pode ser uma boa ideia simplesmente porque a redação técnica exige a escolha da solução menos ambígua. Dito isso, preferimos contornar a controvérsia convertendo listas incorporadas em listas com marcadores.</p>
+
+<p>Nas frases que expressam uma condição, coloque uma vírgula entre a condição e a consequência. Por exemplo, ambas as frases a seguir fornecem a vírgula no lugar correto:</p>
+
+<blockquote>
+  <p>Se o programa estiver lento, use o parâmetro <code class="language-plaintext highlighter-rouge">--perf</code>.</p>
+
+  <p>Se o programa estiver lento, então use o parâmetro <code class="language-plaintext highlighter-rouge">--perf</code>.</p>
+</blockquote>
+
+<p>Você também pode colocar uma definição rápida ou digressão entre um par de vírgulas, como no exemplo a seguir:</p>
+
+<blockquote>
+  <p>Python, uma linguagem fácil de usar, ganhou impulso significativo nos últimos anos.</p>
+</blockquote>
+
+<p>Finalmente, evite usar uma vírgula para colar dois pensamentos independentes. Por exemplo, a vírgula na frase a seguir é culpada de um crime de pontuação chamado <strong>emenda de vírgula</strong>:</p>
+
+<p><i class="fa fa-thumbs-down" style="color: #DD2C00"></i> <b>Não recomendado</b></p>
+
+<blockquote>
+  <p>Samantha é uma programadora maravilhosa, ela escreve muitos cenários de testes.</p>
+</blockquote>
+
+<p>Use um ponto em vez de uma vírgula para separar dois pensamentos independentes. Por exemplo:</p>
+
+<p><i class="fa fa-thumbs-up" style="color: #34A853"></i> <b>Recomendado</b></p>
+
+<blockquote>
+  <p>Samantha é uma programadora maravilhosa. Ela escreve muitos cenários de testes.</p>
+</blockquote>
+
+<h3 id="exercício">Exercício</h3>
+
+<p>Adicione vírgulas quando apropriado à seguinte passagem:</p>
+
+<blockquote>
+  <p>Os Buffers de Protocolo às vezes conhecidos como protobufs são o principal formato de dados estruturados de nossa equipe. Use Buffers de Protocolo para representar armazenar e transferir dados estruturados. Ao contrário do XML os Buffers de Protocolo são compilados. Consequentemente os clientes transmitem os Buffers de Protocolo de forma eficiente o que levou à rápida adoção.</p>
+</blockquote>
+
+<p>Dica: Leia a passagem em voz alta e coloque uma vírgula em todos os lugares onde você ouvir uma pequena pausa.</p>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<p>Aqui está uma solução possível:</p>
+
+<blockquote>Os Buffers de Protocolo, às vezes conhecidos como protobufs, são o principal formato de dados estruturados de nossa equipe. Use Buffers de Protocolo para representar, armazenar e transferir dados estruturados. Ao contrário do XML, os Buffers de Protocolo são compilados. Consequentemente, os clientes transmitem os Buffers de Protocolo de forma eficiente, o que levou à rápida adoção.</blockquote>
+
+</details>
+
+<h2 id="ponto-e-vírgula">Ponto e vírgula</h2>
+
+<p>Um ponto final separa pensamentos distintos; um ponto e vírgula une pensamentos altamente relacionados. Por exemplo, observe como o ponto e vírgula na frase a seguir une o primeiro e o segundo pensamento:</p>
+
+<p><i class="fa fa-thumbs-up" style="color: #34A853"></i> <b>Recomendado</b></p>
+
+<blockquote>
+  <p>Execute novamente o Frambus após atualizar seu arquivo de configuração; não execute novamente o Frambus após atualizar o código-fonte existente.</p>
+</blockquote>
+
+<p>Antes de usar um ponto e vírgula, pergunte a si mesmo se a frase ainda faria sentido se você invertesse os pensamentos para lados opostos do ponto e vírgula. Por exemplo, inverter o exemplo anterior ainda produz uma sentença válida:</p>
+
+<blockquote>
+  <p>Não execute novamente o Frambus após atualizar o código-fonte existente; execute novamente o Frambus após atualizar seu arquivo de configuração.</p>
+</blockquote>
+
+<p>Os pensamentos que precedem e seguem o ponto e vírgula devem ser sentenças gramaticalmente completas. Por exemplo, o ponto e vírgula a seguir está incorreto porque a passagem após o ponto e vírgula é uma cláusula, não uma frase completa:</p>
+
+<p><i class="fa fa-thumbs-down" style="color: #DD2C00"></i> <b>Não recomendado</b></p>
+
+<blockquote>
+  <p>Execute novamente o Frambus após atualizar seu arquivo de configuração; não depois de atualizar o código-fonte existente.</p>
+</blockquote>
+
+<p><i class="fa fa-thumbs-up" style="color: #34A853"></i> <b>Recomendado</b></p>
+
+<blockquote>
+  <p>Execute novamente o Frambus após atualizar seu arquivo de configuração, não após atualizar o código-fonte existente.</p>
+</blockquote>
+
+<p>Você quase sempre deve usar vírgulas, não ponto e vírgula, para separar itens em uma lista incorporada. Por exemplo, o seguinte uso de ponto e vírgula está incorreto:</p>
+
+<p><i class="fa fa-thumbs-down" style="color: #DD2C00"></i> <b>Não recomendado</b></p>
+
+<blockquote>
+  <p>Os guias de estilo são maiores que a lua; mais essencial que o oxigênio; e completamente incompreensíveis.</p>
+</blockquote>
+
+<p>Conforme mencionado anteriormente nesta lição, a redação técnica geralmente prefere listas com marcadores do que listas incorporadas. No entanto, se você realmente preferir uma lista incorporada, use vírgulas em vez de ponto e vírgula para separar os itens, como no exemplo a seguir:</p>
+
+<p><i class="fa fa-thumbs-up" style="color: #34A853"></i> <b>Recomendado</b></p>
+
+<blockquote>
+  <p>Os guias de estilo são maiores que a lua, mais essenciais que o oxigênio e completamente incompreensíveis.</p>
+</blockquote>
+
+<p>Muitas frases colocam uma palavra ou frase de conjunção imediatamente após o ponto e vírgula. Nesta situação, coloque uma vírgula após a conjunção. Observe a vírgula após a conjunção nos dois exemplos a seguir:</p>
+
+<blockquote>
+  <p>O Frambus não fornece nenhum pacote oficial de código aberto para manipulação de strings; entretanto, subconjuntos de pacotes de manipulação de strings estão disponíveis em outros projetos de código aberto.</p>
+
+  <p>Mesmo as mudanças de código aparentemente triviais podem causar bugs; portanto, escreva testes unitários abundantes.</p>
+</blockquote>
+
+<h3 id="exercício-1">Exercício</h3>
+
+<p>Qual dos seguintes pontos finais ou vírgulas você poderia substituir por um ponto e vírgula?</p>
+
+<ol>
+  <li>Python é uma linguagem de programação popular. A linguagem C foi desenvolvida muito antes do Python.</li>
+  <li>O aprendizado do modelo para um valor baixo de X aparece na ilustração superior. O aprendizado do modelo para um valor alto de X aparece na ilustração inferior.</li>
+  <li>Sou grato pelo meu monitor grande, CPU poderosa e largura de banda incrível.</li>
+</ol>
+
+<details>
+<summary>Clique para revelar a resposta.</summary>
+
+<ol>
+   <li>Você não pode converter o ponto final do #1 para um ponto e vírgula porque as duas frases são apenas vagamente relacionadas.</li>
+   <li>Você pode substituir o ponto final do #2 por um ponto e vírgula porque as duas frases são altamente relacionadas.</li>
+   <li>Você não pode converter as vírgulas do #3 para ponto e vírgula. Use vírgulas para separar itens em uma lista incorporada.</li>
+</ol>
+
+</details>
+
+<h2 id="travessões">Travessões</h2>
+
+<p>Os travessões são sinais de pontuação atraentes, ricos em possibilidades de pontuação. Um travessão representa uma pausa mais longa – uma pausa maior – do que uma vírgula. Por exemplo:</p>
+
+<blockquote>
+  <p>C++ é uma linguagem rica – que requer uma vasta experiência para dominar.</p>
+</blockquote>
+
+<p>Às vezes, os redatores usam um par de travessões para isolar uma digressão, como no exemplo a seguir:</p>
+
+<blockquote>
+  <p>Buffers de Protocolo — muitas vezes apelidados de protobufs — codificam dados estruturados em um formato eficiente e extensível.</p>
+</blockquote>
+
+<p>Poderíamos ter usado vírgulas em vez de travessões nos exemplos anteriores? Claro. Por que escolhemos um travessão em vez de uma vírgula? Instinto. Arte. Experiência.</p>
+
+<h3 id="travessões-e-hífens">Travessões e hífens</h3>
+
+<p>Considere os sinais de pontuação horizontais mostrados na tabela a seguir:</p>
+
+<table class="table">
+    <thead class="table-light">
+        <tr>
+            <th>Nome</th>
+            <th>Marcação</th>
+            <th>Largura relativa</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>travessão</td>
+            <td>—</td>
+            <td>mais largo (geralmente, o comprimento da letra m)</td>
+        </tr>
+        <tr>
+            <td>meia-risca (traço)</td>
+            <td>–</td>
+            <td>médio (geralmente, o comprimento da letra n)</td>
+        </tr>
+        <tr>
+            <td>hífen</td>
+            <td>-</td>
+            <td>mais estreito</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Alguns guias de estilo recomendam o travessão para determinados usos. O Guia de Estilo do Google, no entanto, oferece os seguintes conselhos sobre travessões: não use.</p>
+
+<p><strong>Hífens</strong> são complicados. Dentro da escrita técnica, os hífens conectam palavras em certos termos compostos, como:</p>
+
+<blockquote>
+  <p>público-alvo</p>
+</blockquote>
+
+<p>Em caso de dúvida sobre hífens, consulte um dicionário, glossário ou guia de estilo.</p>
+
+<div class="alerta alerta-azul">
+    <p>Se você consultar mais de um dicionário, glossário ou guia de estilo sobre hífens, poderá encontrar inconsistências.</p>
+</div>
+
+<h2 id="parênteses">Parênteses</h2>
+
+<p>Use parênteses para passar ideias curtas e digressões. Os parênteses informam aos leitores que o texto incluído não é crítico. Como o texto incluído não é crítico, alguns editores acham que o texto que merece parênteses não merece estar no documento. Comprometa-se a reduzir os parênteses a um mínimo na redação técnica.</p>
+
+<p>As regras sobre pontos finais e parênteses nem sempre são claras. Aqui estão as regras padrão:</p>
+
+<blockquote>
+  <p>Se um par de parênteses contém uma frase inteira, o ponto vai para dentro do parêntese de fechamento.</p>
+
+  <p>Se um par de parênteses termina uma frase, mas não contém a frase inteira, o ponto vai para fora do parêntese de fechamento.</p>
+</blockquote>
+
+<p>Por exemplo:</p>
+
+<blockquote>
+  <p>(Aliás, os buffers de protocolo são ótimos presentes de aniversário.)</p>
+
+  <p>O modo binário depende da forma nativa mais compacta (descrita posteriormente neste documento).</p>
+</blockquote>
+
+<hr />
+
+<p class="proxima-unidade"><b>Próxima unidade:</b> <a href="/curso/modulo-1/markdown/"><button type="button" class="btn btn-dark">Markdown</button></a> (opcional)</p>
+
+<hr />
+
+<p style="font-size: 12px"><i>O conteúdo desta página é uma tradução livre e adaptada. O material original está disponível em inglês no <a href="https://developers.google.com/tech-writing" target="_blank">Google Developers</a> sob a licença <a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR" target="_blank">Creative Commons (CC BY 4.0)</a>.</i></p>
+:ET
