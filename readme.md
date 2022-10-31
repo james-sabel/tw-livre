@@ -35,6 +35,9 @@ Neste formato, o projeto também abre portas para *writers* que querem começar 
 
 ## Instruções gerais
 
+> Você precisa instalar o Jekyll e dependências dele antes de seguir com as instruções.
+> Para saber como instalar o Jekyll, consulte a [documentação oficial da ferramenta](https://jekyllrb.com/docs/).
+
 Para baixar e executar o projeto localmente, siga estes passos:
 
 1. Faça um clone do repositório do TW Livre. Alternativamente, faça um *fork* do repositório antes de clonar.
