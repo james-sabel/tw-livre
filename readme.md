@@ -35,6 +35,12 @@ Neste formato, o projeto também abre portas para *writers* que querem começar 
 
 ## Instruções gerais
 
+### Ver a versão mais recente do projeto
+
+Você pode ver a versão mais recente do TW Livre gerada e publicada aqui: https://www.twlivre.org/
+
+### Executar o projeto localmente
+
 > Você precisa instalar o Jekyll e dependências dele antes de seguir com as instruções.
 > Para saber como instalar o Jekyll, consulte a [documentação oficial da ferramenta](https://jekyllrb.com/docs/).
 
