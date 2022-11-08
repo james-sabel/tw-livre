@@ -21,5 +21,19 @@ permalink: /tutoriais/
         </div>
       </div>
     </div>
+    <div class="col-lg-4 d-flex align-items-stretch">
+      <div class="card">
+        <div style="text-align: center">
+          <img src="/res/img/github/logo-github.png" class="card-img-top" alt="Logo do GitHub">
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">GitHub e open source</h5>
+          <p class="card-text">Dê os primeiros passos com o GitHub e entenda como contribuir com projetos open source.</p>
+          <div class="mt-auto">
+            <a href="/tutoriais/github/" class="btn btn-dark btn-lg">Acessar o tutorial</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
