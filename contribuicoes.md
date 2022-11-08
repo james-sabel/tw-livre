@@ -44,7 +44,10 @@ Para saber quais frameworks e ferramentas o site usa, consulte a [documentação
 
 ### Alterações de conteúdo
 
-Uma alteração de conteúdo envolve mexer nos textos e guias do curso essencial de Technical Writing.
+Uma alteração de conteúdo envolve mexer em:
+
+* textos e guias do **curso essencial de Technical Writing**
+* textos e guias dos **tutoriais**
 
 Para saber quais frameworks e ferramentas foram usados para construir o conteúdo, consulte a [documentação de tecnologias usadas pelo site](tecnologias.md).
 
