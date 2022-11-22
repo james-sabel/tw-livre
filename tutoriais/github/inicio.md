@@ -8,17 +8,17 @@ permalink: /tutoriais/github/
 
 ![Logo do GitHub](/res/img/github/logo-github.png "Logo do GitHub"){: height="auto" width="300" }
 
-## Começando agora?
+## Tópicos introdutórios
 
-* [O que é open source](/tutoriais/github/open-source)
-* [O que são Git e GitHub](/tutoriais/github/git-github/)
+* [O que é open source](/tutoriais/github/open-source/)
+* [Controle de versão](/tutoriais/github/controle-versao/)
+* [Git e GitHub](/tutoriais/github/git-github/)
 * [Terminologia essencial](/tutoriais/github/terminologia/)
 * [Ferramentas](/tutoriais/github/ferramentas/)
 
 ## Operando com o GitHub
 
-* [Criar uma conta](/tutoriais/github/criar-conta/)
-* [Criar repositório](/tutoriais/github/criar-repositorio/)
+* [Primeiros passos](/tutoriais/github/primeiros-passos/)
 * [Modificar arquivos pelo GitHub](/tutoriais/github/modificar-github/)
 * [Modificar arquivos remotos](/tutoriais/github/modificar-remoto/)
 
