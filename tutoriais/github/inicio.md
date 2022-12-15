@@ -16,11 +16,11 @@ permalink: /tutoriais/github/
 * [Terminologia essencial](/tutoriais/github/terminologia/)
 * [Ferramentas](/tutoriais/github/ferramentas/)
 
-## Operando com o GitHub
+<!-- ## Operando com o GitHub
 
 * [Primeiros passos](/tutoriais/github/primeiros-passos/)
-* [Modificar arquivos pelo GitHub](/tutoriais/github/modificar-github/)
-* [Modificar arquivos remotos](/tutoriais/github/modificar-remoto/)
+* [Alterar projeto no GitHub](/tutoriais/github/alterar-github/)
+* [Alterar projeto num repositório remoto](/tutoriais/github/alterar-remoto/) -->
 
 ## Contribuindo com open source
 

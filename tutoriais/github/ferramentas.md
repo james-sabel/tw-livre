@@ -16,15 +16,17 @@ Conforme explicado no [tópico sobre Git e GitHub](/tutoriais/github/git-github/
 
 O GitHub disponibiliza seu próprio cliente gratuito, o [GitHub Desktop](https://desktop.github.com/), mas existem diversas alternativas que você pode buscar.
 
-É perfeitamente possível trabalhar somente com os comandos do Git. Mas, para este tutorial, vamos usar o cliente GitHub Desktop para executar as [operações do Git](/tutoriais/github/terminologia/#operações-do-git).
+É perfeitamente possível trabalhar somente com os comandos do Git. Mas, para este tutorial, vamos usar o **Sublime Merge** - um dos muitos clientes Git - para executar as [operações do Git](/tutoriais/github/terminologia/#operações-do-git).
 
 ## Editor de código
 
 É um software que permite editar **texto e código** (*text+code*).
 
-Um bom editor de código é o [Visual Studio Code (VSCode)](https://code.visualstudio.com/), por ser bem completo e integrar bem com ambientes de desenvolvimento. O VSCode costuma ter mais funcionalidades e plugins disponíveis.
+Um bom editor de código é o [Visual Studio Code (VS Code)](https://code.visualstudio.com/), por ser bem completo e integrar bem com ambientes de desenvolvimento. O VSCode costuma ter mais funcionalidades e plugins disponíveis.
 
 Outra alternativa é o [Sublime Text](https://www.sublimetext.com/), que é mais básico e fácil para quem nunca mexeu com esse tipo de software antes. O Sublime Text é mais limpo e intuitivo e também é o software usado como exemplo ao longo deste tutorial.
+
+Para este tutorial, vamos usar o **VS Code**.
 
 ## Git
 

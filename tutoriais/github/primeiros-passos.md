@@ -8,21 +8,26 @@ permalink: /tutoriais/github/primeiros-passos/
 
 Este tópico lista o que você precisa fazer para mexer com Git e GitHub, e para começar a contribuir com projetos open source.
 
-## Criar uma conta
+## 1. Criar uma conta no GitHub
 
 O primeiro passo é [criar uma conta no GitHub](https://github.com/signup), se você ainda não tiver uma. Isto é necessário para contribuir com projetos existentes ou para criar seus próprios projetos.
 
-## Instalar as ferramentas
+## 2. Instalar as ferramentas necessárias
 
-Estas são as [ferramentas](/tutoriais/github/ferramentas/) que serão usadas ao longo do tutorial. Lembre-se que existem outras similiares. Depois de entender como tudo funciona, você pode testar diferentes ferramentas até encontrar um que seja de sua preferência.
+<div class="alerta alerta-azul">
+    <p>Você não precisa de nenhuma destas ferramentas para a prática do <a href="/tutoriais/github/alterar-github/">próximo tópico (Alterar projeto no GitHub)</a>; somente a conta no GitHub é suficiente. No entanto, estas ferramentas serão necessárias para o <a href="/tutoriais/github/alterar-github/">tópico seguinte (Alterar projeto num repositório remoto)</a>.</p>
+</div>
 
-### GitHub Desktop (cliente Git)
+Estas são as ferramentas que serão usadas em algumas partes do tutorial:
 
+### Sublime Merge (cliente Git)
 
+[Instale o Sublime Merge](https://www.sublimemerge.com/) na sua máquina. O Sublime Merge é o cliente Git que vamos usar nos exemplos de operação com o Git.
 
-### Sublime Text (editor de código)
+### Visual Studio Code (VS Code) (editor de código)
 
+[Instale o VS Code](https://code.visualstudio.com/) na sua máquina. O VS Code é o editor de código que vamos usar nos exemplos de como editar a documentação dos projetos.
 
 ---
 
-<!-- <p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/github/primeiros-passos/"><button type="button" class="btn btn-dark">Primeiros passos</button></a></p> -->
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/github/alterar-github/"><button type="button" class="btn btn-dark">Alterar projeto no GitHub</button></a></p>
