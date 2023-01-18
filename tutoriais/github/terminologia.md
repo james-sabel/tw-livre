@@ -6,6 +6,10 @@ permalink: /tutoriais/github/terminologia/
 
 **Índice de termos nesta página:**
 
+<div class="alerta alerta-azul">
+    <p>O tópico <a href="/tutoriais/github/enviar-contribuicao/">Enviar uma contribuição</a> demonstra como os conceitos desses termos se aplicam na prática do fluxo de contribuição.</p>
+</div>
+
 - [Terminologia essencial](#terminologia-essencial)
   - [Repositório](#repositório)
   - [Issues (Problemas)](#issues-problemas)
@@ -154,8 +158,4 @@ Ao trabalhar com controle de versão, você deve querer que *todo* o seu projeto
 
 ---
 
-O tópico [Enviar uma contribuição](/tutoriais/github/enviar-contribuicao/) demonstra como os conceitos desses termos se aplicam na prática do fluxo de contribuição.
-
----
-
-<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/github/fluxo-contribuicao/"><button type="button" class="btn btn-dark">Fluxo de contribuição</button></a></p>
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/github/ferramentas/"><button type="button" class="btn btn-dark">Ferramentas</button></a></p>

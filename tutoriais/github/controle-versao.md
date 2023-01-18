@@ -1,6 +1,6 @@
 ---
 layout: tutorial-github
-title: Tutorial | GitHub e open source - Controle de versão (Parte 1)
+title: Tutorial | GitHub e open source - Controle de versão
 permalink: /tutoriais/github/controle-versao/
 ---
 
@@ -25,7 +25,7 @@ Pessoas que trabalham com sistemas de versão criam e alteram documentos existen
 
 Uma lista resumida de sistemas de controle de versão pode ser consultada na [Wikipedia](https://pt.wikipedia.org/wiki/Categoria:Sistemas_de_controlo_de_vers%C3%A3o). Porém, existem muito mais sistemas além dos que estão listados no artigo.
 
-Este tutorial adotou o **[Git](https://git-scm.com/)** como sistema de controle de versão. Este sistema é um dos mais comuns e é o sistema usado pelo **GitHub**. Você irá saber mais sobre isto no próximo tópico: [O que são Git e GitHub](/tutoriais/github/git-github/).
+Este tutorial adotou o **[Git](https://git-scm.com/)** como sistema de controle de versão. Este sistema é um dos mais comuns e é o sistema usado pelo **GitHub**. Você irá saber mais sobre isto no próximo tópico: [Git e GitHub](/tutoriais/github/git-github/).
 
 ## Docs-as-code: documentação versionada
 
@@ -91,4 +91,4 @@ O conflito é um cenário atípico e não será abordado neste tutorial. É inte
 
 ---
 
-<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/github/git-github//"><button type="button" class="btn btn-dark">O que são Git e GitHub</button></a></p>
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/github/git-github//"><button type="button" class="btn btn-dark">Git e GitHub</button></a></p>

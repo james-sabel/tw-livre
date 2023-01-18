@@ -24,5 +24,5 @@ permalink: /tutoriais/github/
 
 ## Contribuindo com open source
 
-* [Encontrar projetos](/tutoriais/github/encontrar-projetos/)
+* [Encontrar projetos de documentação](/tutoriais/github/encontrar-projetos/)
 * [Enviar uma contribuição](/tutoriais/github/enviar-contribuicao/)
