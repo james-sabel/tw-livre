@@ -2,6 +2,20 @@ h2 {
     margin-top: 20px;
 }
 
+h3 {
+    margin-top: 20px;
+    font-size: 16pt;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 13pt;
+}
+
+li {
+    margin-top: 15px;
+}
+
 .curso-container {
     padding: 100px 15px 80px;
 }
