@@ -1,0 +1,154 @@
+openapi: 3.0.0
+info:
+  version: '1.0'
+  title: API de horários de luz solar
+  description: API gratuita que retorna os horários de pôr do sol e nascer do sol para as latidudes e longitudes escolhidas. Esta API é de propriedade do site <a href="https://sunrise-sunset.org/" target="_blank">sunrise-sunset.org</a>.<br /><br />Esta documentação é uma tradução do conteúdo original para o português, para o site <a href="https://twlivre.org/" target="_blank">TWLivre.org</a>.
+  contact:
+    name: sunrise-sunset.org
+    url: 'https://sunrise-sunset.org/contact'
+servers:
+  - url: 'https://api.sunrise-sunset.org'
+    description: URL para chamadas da API
+paths:
+  /json:
+    get:
+      summary: Obter os horários de nascer do sol e pôr do sol
+      description: 'Retorna as informações de nascer do sol e pôr do sol para uma determinada localização, baseada em parâmetros de latitude e longitude.'
+      operationId: getSunriseSunset
+      parameters:
+        - name: lat
+          in: query
+          description: Latitude em graus decimais.
+          schema:
+            type: number
+            format: float
+            example: 37.3708698
+          required: true
+        - name: lng
+          in: query
+          description: Longitude em graus decimais.
+          required: true
+          schema:
+            type: number
+            format: float
+            example: -122.037593
+        - name: date
+          in: query
+          description: 'Data no formato AAAA-MM-DD. Se este parâmetro estiver vazio, será usada a data atual. Também é possível usar a data relativa, escrita em inglês (por exemplo "tomorrow").'
+          required: false
+          schema:
+            type: string
+            example: today
+        - name: callback
+          in: query
+          description: Função que retorna uma resposta no formato JSONP.
+          required: false
+          schema:
+            type: string
+        - name: formatted
+          in: query
+          required: false
+          description: 'Formato para apresentar as datas, horários e duração do dia na resposta. "0" retorna as informações no formato especificado pela ISO 8601, enquanto "1" retorna no formato encurtado. Se este parâmetro estiver vazio, será usado o valor "1".'
+          schema:
+            type: integer
+            format: int32
+            example: 1
+      responses:
+        '200':
+          description: Resposta com os horários de nascer do sol e pôr do sol.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SunriseSunsetResponse'
+              examples:
+                Exemplo 1:
+                  value:
+                    results:
+                      sunrise: '7:27:02 AM'
+                      sunset: '5:05:55 PM'
+                      solar_noon: '12:16:28 PM'
+                      day_length: '9:38:53'
+                      civil_twilight_begin: '6:58:14 AM'
+                      civil_twilight_end: '5:34:43 PM'
+                      nautical_twilight_begin: '6:25:47 AM'
+                      nautical_twilight_end: '6:07:10 PM'
+                      astronomical_twilight_begin: '5:54:14 AM'
+                      astronomical_twilight_end: '6:38:43 PM'
+                    status: OK
+                Exemplo 2:
+                  value:
+                    results:
+                      sunrise: '2021-07-20T13:03:51+00:00'
+                      sunset: '2021-07-21T03:25:20+00:00'
+                      solar_noon: '2021-07-20T20:14:35+00:00'
+                      day_length: 51689
+                      civil_twilight_begin: '2021-07-20T12:34:10+00:00'
+                      civil_twilight_end: '2021-07-21T03:55:01+00:00'
+                      nautical_twilight_begin: '2021-07-20T11:57:31+00:00'
+                      nautical_twilight_end: '2021-07-21T04:31:40+00:00'
+                      astronomical_twilight_begin: '2021-07-20T11:17:15+00:00'
+                      astronomical_twilight_end: '2021-07-21T05:11:55+00:00'
+                    status: OK
+    parameters: []
+components:
+  schemas:
+    SunriseSunsetResponse:
+      title: Resposta
+      type: object
+      properties:
+        results:
+          type: object
+          properties:
+            sunrise:
+              type: string
+              description: Horário do nascer do sol.
+              example: '7:27:02 AM'
+            sunset:
+              type: string
+              description: Horário do pôr do sol.
+              example: '5:05:55 PM'
+            solar_noon:
+              type: string
+              description: Horário quando o sol está no ponto mais alto.
+              example: '12:16:28 PM'
+            day_length:
+              type: string
+              description: Tempo de duração do dia.
+              example: '9:38:53'
+            civil_twilight_begin:
+              type: string
+              description: Horário de início do crepúsculo civil.
+              example: '6:58:14 AM'
+            civil_twilight_end:
+              type: string
+              description: Horário de término do crepúsculo civil.
+              example: '5:34:43 PM'
+            nautical_twilight_begin:
+              type: string
+              description: Horário de início do crepúsculo náutico.
+              example: '6:25:47 AM'
+            nautical_twilight_end:
+              type: string
+              description: Horário de término do crepúsculo náutico.
+              example: '6:07:10 PM'
+            astronomical_twilight_begin:
+              type: string
+              description: Horário de início do crepúsculo astronômico.
+              example: '5:54:14 AM'
+            astronomical_twilight_end:
+              type: string
+              description: Horário de término do crepúsculo astronômico.
+              example: '6:38:43 PM'
+        status:
+          type: string
+          description: |-
+            Quatro possíveis status:
+             
+            * `OK`: Nenhum erro ocorrido. 
+            * `INVALID_REQUEST`: Os valores dos parâmetros 'lat' ou 'lng' não foram informados ou são inválidos. 
+            * `INVALID_DATE`: O valor do parâmetro 'date' não foi informado ou é inválido. 
+            * `UNKNOWN_ERROR`: A requisição não pôde ser processada devido a um erro do servidor e talvez funcione se você tentar novamente.
+          example: OK
+externalDocs:
+  description: Endereço do site oficial e documentação original desta API
+  url: 'https://sunrise-sunset.org/api'
