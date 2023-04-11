@@ -16,6 +16,16 @@ li {
     margin-top: 15px;
 }
 
+th,
+td {
+    border: solid 1px #000;
+    padding: 5px;
+}
+
+th {
+    background-color: #e3e3e3;
+}
+
 .curso-container {
     padding: 100px 15px 80px;
 }
@@ -169,10 +179,14 @@ details>blockquote {
 
 /* CÓDIGO */
 
-.language-text,
 .language-html,
 .terminal {
     background-color: #1D1E22;
     color: #fff;
+    padding: 5px;
+}
+
+.language-text {
+    color: #1D1E22;
     padding: 5px;
 }
