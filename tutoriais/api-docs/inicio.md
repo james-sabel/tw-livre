@@ -8,8 +8,6 @@ permalink: /tutoriais/api-docs/
 
 ![Logo do Jekyll](/res/img/jekyll/logo-jekyll.png "Logo do Jekyll"){: height="auto" width="300" }
 
-* Visão geral do tutorial — o que você vai aprender neste tutorial de API Docs
-
 ## Sobre APIs e documentação
 
 * [Introdução a APIs](/tutoriais/api-docs/introducao-apis/)

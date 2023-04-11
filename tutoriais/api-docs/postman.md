@@ -51,14 +51,18 @@ Esta é uma API simples porque ela não exige nenhuma informação especial para
 1. Acesse o Postman na web ou na sua instalação local.
 1. No menu lateral esquerdo, acesse a seção **Collections** e clique no ícone para adicionar uma nova coleção
     * Coleções do Postman são uma forma de organizar as definições de APIs. É comum que Tech Writers tenham que lidar com diferentes APIs no dia a dia. As coleções permitem agrupar as configurações de requests dessas APIs, facilitando os testes e a operação com cada uma.
-1. Renomeie a coleção para "Citações do Ron" para ficar mais fácil de identificá-la. Em seguida, clique em **Add a request** para incluir uma nova requisição nessa coleção.
+    <img src="/res/img/api-docs/tutorial-postman-01.png" alt-text="Botão para criar uma nova coleção" title="Botão para criar uma nova coleção" class="imagem-curso" />
+1. Renomeie a coleção para "Citações do Ron" para ficar mais fácil de identificá-la. Em seguida, clique em **Add a request** para incluir uma nova requisição nessa coleção.   
+    <img src="/res/img/api-docs/tutorial-postman-02.png" alt-text="Renomeando a coleção e adicionando um novo request" title="Renomeando a coleção e adicionando um novo request" class="imagem-curso" />
 1. Renomeie o request para **Buscar uma citação aleatória**.
     * Note que o nome descreve exatamente o que o request faz: ele busca, aleatoriamente, uma citação do personagem em uma base de dados onde tem uma extensa lista de citações.
     * É uma boa prática que os nomes de requests usem *verbos* para indicar uma *ação*.
 1. Mantenha o método **GET** preenchido. Neste local você poderia escolher qualquer outro método, mas esta API aceita apenas o método GET, pois ela permite apenas *buscar* um recurso da API.
 1. Preencha a URL da requisição logo ao lado do método. A URL da requisição da API de citações do Ron Swanson é a seguinte:
     * `https://ron-swanson-quotes.herokuapp.com/v2/quotes`
+    <img src="/res/img/api-docs/tutorial-postman-03.png" alt-text="Request renomeado, método GET selecionado e URL preenchida" title="Request renomeado, método GET selecionado e URL preenchida" class="imagem-curso" />
 1. Clique em **Send** para enviar a sua requisição e pronto! Na área inferior você pode conferir a resposta da requisição, onde aparece uma citação aleatória do Ron.
+    <img src="/res/img/api-docs/tutorial-postman-04.png" alt-text="Resposta retornada pela requisição" title="Resposta retornada pela requisição" class="imagem-curso" />
 1. Clique em **Send** novamente e perceba que você receberá uma nova resposta da API, com uma nova citação aleatória. Cada vez que você enviar uma requisição, a API responderá com uma citação diferente.
 
 <div class="alerta alerta-azul">
@@ -95,7 +99,9 @@ Esta é uma API que exige que você informe alguns parâmetros na requisição, 
         * **Key** = lng
         * **Value** = 4.4203400
         * **Description** = Longitude
+    <img src="/res/img/api-docs/tutorial-postman-05.png" alt-text="Request renomeado, método GET selecionado, URL preenchida e parâmetros cadastrados" title="Request renomeado, método GET selecionado, URL preenchida e parâmetros cadastrados" class="imagem-curso" />
 8. Clique em **Send** para enviar a sua requisição e pronto! Na área inferior você pode conferir a resposta da requisição, onde aparecem as informações de horário solar para as coordenadas informadas nos parâmetros.
+    <img src="/res/img/api-docs/tutorial-postman-06.png" alt-text="Resposta retornada para a data atual (comportamento padrão)" title="Resposta retornada para a data atual (comportamento padrão)" class="imagem-curso" />
 
 Perceba que o teste acima não especifica de **quando** são os horários solares retornados. A API tem um comportamento padrão que é considerar sempre a **data atual**, caso você não informe a data de quando quer consultar. Vamos fazer um novo teste colocando uma data como parâmetro:
 
@@ -105,6 +111,7 @@ Perceba que o teste acima não especifica de **quando** são os horários solare
     * **Value** = tomorrow
     * **Description** = Data
 3. Clique em **Send** para enviar a sua requisição. Agora! Na área inferior você pode conferir a resposta da requisição, onde aparecem as informações de horário solar para as coordenadas informadas nos parâmetros.
+    <img src="/res/img/api-docs/tutorial-postman-07.png" alt-text="Resposta retornada para a data especificada no parâmetro" title="Resposta retornada para a data especificada no parâmetro" class="imagem-curso" />
 
 Experimente fazer novas consultas trocando as coordenadas e a data. Você pode consultar os horários solares de qualquer lugar e para qualquer data que quiser.
 
