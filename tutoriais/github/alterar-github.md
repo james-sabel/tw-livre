@@ -4,6 +4,8 @@ title: Tutorial | GitHub e open source - Alterar projeto no GitHub
 permalink: /tutoriais/github/alterar-github/
 ---
 
+<!-- Este documento está com uma regra para ser IGNORADO no arquivo _config.yml. A regra deve ser removida depois de finalizar este conteúdo. -->
+
 # Alterar projeto no GitHub
 
 <div class="alerta alerta-amarelo">
