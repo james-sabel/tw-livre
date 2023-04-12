@@ -1,38 +1,44 @@
 ---
 layout: tutorial-api-docs
-title: Tutorial | Documentação de APIs - Tutorial prático - Paths e requisições
+title: Tutorial | Documentação de APIs - Exercício - Requests (Requisições)
 permalink: /tutoriais/api-docs/requests/
 ---
 
-# Tutorial prático - Paths e requisições
+# Exercício - Requests (requisições)
 
-## Sobre a documentação de requisições
+Ao final deste tópico, você terá a documentação dos **detalhes de requests** da API, seguindo as boas práticas desse tipo de conteúdo.
 
-Uma requisição, também conhecida como Request, é uma chamada feita para a API. A chamada é uma forma de indicar para a API que você quer fazer alguma ação, como buscar ou inserir informações em uma base de dados, por exemplo. Uma API pode aceitar diversos tipos de requisições, por isso é importante detalhar todos os tipos possíveis na documentação.
+## Requests
+
+Um **request** é uma solicitação feita para a API. A solicitação é uma forma de indicar para a API que você quer fazer alguma ação, como buscar ou inserir informações em uma base de dados, por exemplo. Uma API pode aceitar diversos tipos de requisições, por isso é importante detalhar todos os tipos possíveis na documentação.
 
 A documentação de cada requisição deve conter estas informações:
 
-* Nome
-* Método
-* Path e endpoint
-* Descrição
-* Exemplo
+* **Nome**
+* **Método**
+* **Path e endpoint**
+* **Descrição**
+* **Exemplo**
 
 O **nome** da requisição precisa indicar o que ela faz. É uma boa prática iniciar o nome no infinitivo, como um verbo que indica uma ação. Por exemplo: listar, buscar, cadastrar, incluir, enviar.
 
+É importante mencionar e descrever *todos* os **métodos** do request. Alguns requests aceitam somente um método, enquanto alguns podem aceitar vários métodos diferentes.
+
 Ao citar o **path**, incluir a URL base é opcional, pois a URL já foi mencionada no início da documentação (considerando que você está seguindo este tutorial). Mas pode ser interessante incluir a URL base novamente junto com o path para facilitar testes com o endereço completo da requisição. Se você optar por incluir a URL base com o path, pode estilizar o texto para que a URL tenha menos destaque do que o path e o endpoint.
 
-Na **descrição**, explique para que o endpoint é usado. Se o request para esse endpoint retorna algum dado na resposta, use a descrição para dar uma ideia geral do que é retornado. (Os detalhes da resposta serão documentados mais adiante.) Por exemplo:
+Na **descrição**, explique para que o endpoint é usado. Se o request para esse endpoint retorna algum dado na resposta, use a descrição para dar uma ideia geral do que é retornado. (Os detalhes da resposta serão documentados num tópico mais adiante do tutorial.)
+
+Por fim, temos a documentação de um **request de exemplo**. O exemplo ajuda a demonstrar como fazer uma chamada para a API na prática. Normalmente o exemplo é escrito na forma de um comando [**cURL**](https://pt.wikipedia.org/wiki/CURL), o qual o desenvolvedor pode usar em um client como o Postman para testar o request.
+
+Este é um exemplo dos elementos da documentação inicial de um request:
 
 * **Listar os cadastros de usuários**
 * **(GET) /integracao/listarUsuarios**
 * **Busca a lista de usuários cadastrados no sistema e retorna os dados básicos dos perfis.**
 
-No exemplo acima, **Listar os cadastros de usuários** é o **nome** do endpoint, **GET** é o método de requisição e **/integracao/listarUsuarios** é o path com o endpoint.
+No exemplo acima, `Listar os cadastros de usuários` é o **nome** do endpoint, `GET` é o **método** de requisição e `/integracao/listarUsuarios` é o **path** com o **endpoint**.
 
 Apesar de o nome do endpoint ser bem explicativo (como deve ser), a **descrição** deixa ainda mais explícito o que esperar e dá uma ideia geral do que o request irá retornar.
-
-Por fim, temos a documentação de um request de exemplo. O exemplo ajuda a demonstrar como fazer uma chamada para a API na prática. Normalmente o exemplo é escrito na forma de um comando cURL, o qual o desenvolvedor pode usar em um client como o Postman para testar o request.
 
 ## Exemplo prático
 
@@ -76,7 +82,7 @@ Perceba que o endpoint **getPersonalData** está no path **/personal/**. Já o e
 
 Ainda sobre o exemplo acima, inserimos o comando cURL de um exemplo funcional de requisição para a API. O desenvolvedor pode usar esse exemplo para fazer um request de teste e entender melhor como a API funciona.
 
-Mais acima neste tutorial, falamos sobre a URL base ser opcional neste ponto da documentação. Aqui nós optamos por suprimir esta informação, mas ela poderia aparecer. Neste caso, a descrição dos paths ficariam assim:
+Mais acima neste tutorial, falamos sobre a URL base ser opcional neste ponto da documentação. Aqui nós optamos por suprimir esta informação, mas ela poderia aparecer. Neste caso, a descrição dos paths seria assim:
 
 > ```(GET) https://api.com.br/gerenciadorUsuarios/v1/personal/getPersonalData```
 >
@@ -123,3 +129,7 @@ Ao interpretar o conteúdo escrito em Markdown neste tópico e nas etapas anteri
 > `(GET) /contact/getContatInformation`
 >
 > Retorna os **dados de contato do perfil** do usuário, com base em um identificador numérico único. O retorno inclui os números de telefone e endereços de e-mail do usuário.
+
+---
+
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/api-docs/header-body/"><button type="button" class="btn btn-dark">Exercício prático - Header e Body (cabeçalho e corpo)</button></a></p>

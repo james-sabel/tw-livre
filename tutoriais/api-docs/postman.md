@@ -13,7 +13,7 @@ Esta parte do tutorial fala sobre:
 
 ## Teste de APIs
 
-Testar uma API significa fazer requests para a aplicação e observar as respostas dessas requisições.
+Testar uma API significa fazer requests para a aplicação e consumir as respostas dessas requisições.
 
 Os testes de API têm diversas finalidades:
 
@@ -24,9 +24,9 @@ Os testes de API têm diversas finalidades:
   * verificar se os requests foram construídos corretamente
   * verificar se as respostas contém os dados esperados e como estão estruturadas
 
-Existem várias maneiras de testar uma API. Uma delas é usando plataformas de construção e de consumo de APIs.
+Existem várias maneiras de testar uma API. Uma delas é usando plataformas chamadas de **API clients**, ou clientes de API.
 
-Para este tutorial vamos usar o **Postman**, uma das plataformas mais populares de construção de API.
+Para este tutorial vamos usar o **Postman**, um dos API clients mais populares.
 
 ## Postman
 
@@ -36,15 +36,15 @@ O Postman está disponível via **instalação local** e em **versão web**. Vam
 
 * **Instalação local:** acesse o [site do Postman](https://www.postman.com/), faça o download do aplicativo e instale no seu sistema.
 * **Versão web:** acesse a [versão web do Postman](https://web.postman.co/) para usá-la no seu navegador.
-  * A versão web exige que você crie uma conta no Postman. A conta é gratuita e oferece algumas facilidades adicionais, como salvar as configurações, preferências e definições de APIs que você usa com frequência. Na versão instalada localmente você tem acesso às mesmas facilidades, mas a criação de uma conta é opcional.
+  * A versão web exige que você crie uma conta no Postman. A criação de uma conta é gratuita e oferece algumas facilidades adicionais, como sincronizar entre dispositivos as suas configurações, preferências e definições de APIs que você usa com frequência.
 
 ### Fazendo requests para uma API sem parâmetros
 
-Para o primeiro teste prático com o Postman, vamos usar uma **API que retorna citações de Ron Swanson**. (Ron Swanson é um dos personagens da série de TV "Parks and Recreations", conhecida no Brasil como "As Confusões de Leslie".)
+Para o primeiro teste prático com o Postman, vamos usar uma **API que retorna citações de Ron Swanson**. (Ron Swanson é um dos personagens da série de TV "Parks and Recreation", conhecida no Brasil como "Parks & Recreation: Confusões de Leslie".)
 
 A API de citações do Ron Swanson é uma API gratuita que está disponível para qualquer pessoa enviar requisições livremente.
 
-Esta é uma API simples porque ela não exige nenhuma informação especial para a requisição. Não é preciso fazer nenhum tipo de autenticação e nem enviar dados no Header ou Body. Basta você fazer um request para a URL da API e ela já retorna as informações solicitadas, que neste caso é uma citação do Ron Swanson.
+Esta é uma API simples porque ela não exige nenhuma informação especial para a requisição. Não é preciso fazer nenhum tipo de autenticação e nem enviar dados no Header ou Body. Basta você fazer um request para a URL da API e ela já retorna os dados solicitados, neste caso, uma citação do Ron Swanson.
 
 **Passos para fazer a requisição:**
 
@@ -57,16 +57,21 @@ Esta é uma API simples porque ela não exige nenhuma informação especial para
 1. Renomeie o request para **Buscar uma citação aleatória**.
     * Note que o nome descreve exatamente o que o request faz: ele busca, aleatoriamente, uma citação do personagem em uma base de dados onde tem uma extensa lista de citações.
     * É uma boa prática que os nomes de requests usem *verbos* para indicar uma *ação*.
-1. Mantenha o método **GET** preenchido. Neste local você poderia escolher qualquer outro método, mas esta API aceita apenas o método GET, pois ela permite apenas *buscar* um recurso da API.
+1. Mantenha o método **GET** preenchido. Você poderia escolher qualquer outro método, mas esta API aceita apenas o método GET, pois ela permite apenas *buscar* um recurso da API.
 1. Preencha a URL da requisição logo ao lado do método. A URL da requisição da API de citações do Ron Swanson é a seguinte:
     * `https://ron-swanson-quotes.herokuapp.com/v2/quotes`
+    * Sua tela do Postman deve se parecer com a imagem abaixo:
     <img src="/res/img/api-docs/tutorial-postman-03.png" alt-text="Request renomeado, método GET selecionado e URL preenchida" title="Request renomeado, método GET selecionado e URL preenchida" class="imagem-curso" />
-1. Clique em **Send** para enviar a sua requisição e pronto! Na área inferior você pode conferir a resposta da requisição, onde aparece uma citação aleatória do Ron.
+2. Clique em **Send** para enviar a sua requisição e pronto! Na área inferior você pode conferir a resposta da requisição, onde aparece uma citação aleatória do Ron.
     <img src="/res/img/api-docs/tutorial-postman-04.png" alt-text="Resposta retornada pela requisição" title="Resposta retornada pela requisição" class="imagem-curso" />
-1. Clique em **Send** novamente e perceba que você receberá uma nova resposta da API, com uma nova citação aleatória. Cada vez que você enviar uma requisição, a API responderá com uma citação diferente.
+3. Clique em **Send** novamente e perceba que você receberá uma nova resposta da API, com uma nova citação aleatória. Cada vez que você enviar uma requisição, a API responderá com uma citação diferente.
+
+<p style="text-align: center;">
+    <img src="/res/img/api-docs/ron-swanson-done.gif" alt-text="GIF animado do personagem Ron Swanson falando Done and Done" title="O personagem Ron Swanson falando Done and Done" style="max-height: 300px" />
+</p>
 
 <div class="alerta alerta-azul">
-    <p>Algumas APIs podem estabelecer um <b>limite de requisições</b>. Cada requisição consome recursos da API, então é normal que algumas empresas permitam fazer apenas um número máximo de requisições e, depois de atingir o limite, podem começar a cobrar por cada requisição realizada. Mas não se preocupe: este não é o caso da API de citações do Ron Swanson!</p>
+    <p>Algumas APIs podem estabelecer um <b>limite de requisições</b>. Cada requisição consome recursos da API, então é normal que algumas empresas permitam fazer apenas um número máximo de requisições e, depois de atingir o limite, comecem a cobrar por cada requisição realizada. Mas não se preocupe: este não é o caso da API de citações do Ron Swanson!</p>
 </div>
 
 ### Fazendo requests para uma API com parâmetros
@@ -99,6 +104,7 @@ Esta é uma API que exige que você informe alguns parâmetros na requisição, 
         * **Key** = lng
         * **Value** = 4.4203400
         * **Description** = Longitude
+    * Sua tela do Postman deve se parecer com a imagem abaixo:
     <img src="/res/img/api-docs/tutorial-postman-05.png" alt-text="Request renomeado, método GET selecionado, URL preenchida e parâmetros cadastrados" title="Request renomeado, método GET selecionado, URL preenchida e parâmetros cadastrados" class="imagem-curso" />
 8. Clique em **Send** para enviar a sua requisição e pronto! Na área inferior você pode conferir a resposta da requisição, onde aparecem as informações de horário solar para as coordenadas informadas nos parâmetros.
     <img src="/res/img/api-docs/tutorial-postman-06.png" alt-text="Resposta retornada para a data atual (comportamento padrão)" title="Resposta retornada para a data atual (comportamento padrão)" class="imagem-curso" />
@@ -110,9 +116,13 @@ Perceba que o teste acima não especifica de **quando** são os horários solare
     * **Key** = date
     * **Value** = tomorrow
     * **Description** = Data
-3. Clique em **Send** para enviar a sua requisição. Agora! Na área inferior você pode conferir a resposta da requisição, onde aparecem as informações de horário solar para as coordenadas informadas nos parâmetros.
+3. Clique em **Send** para enviar a sua requisição. Agora, na área inferior você pode conferir a resposta da requisição, onde aparecem as informações de horário solar para as coordenadas informadas nos parâmetros.
     <img src="/res/img/api-docs/tutorial-postman-07.png" alt-text="Resposta retornada para a data especificada no parâmetro" title="Resposta retornada para a data especificada no parâmetro" class="imagem-curso" />
 
 Experimente fazer novas consultas trocando as coordenadas e a data. Você pode consultar os horários solares de qualquer lugar e para qualquer data que quiser.
 
 Para conhecer todas as opções de parâmetros que você pode usar, consulte a [documentação oficial da API Sunset and Sunrise Times](https://sunrise-sunset.org/api). Perceba como até mesmo uma API simples como essa precisa de documentação!
+
+---
+
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/api-docs/ferramentas/"><button type="button" class="btn btn-dark">Ferramentas para documentar APIs</button></a></p>

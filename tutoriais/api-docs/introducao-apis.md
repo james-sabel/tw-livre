@@ -6,7 +6,7 @@ permalink: /tutoriais/api-docs/introducao-apis/
 
 # Introdução a APIs
 
-Este tópico apresenta um conceito geral e superficial para começar a entender o que são APIs, a lógica por trás delas e alguns termos comuns.
+Este tópico apresenta um conceito geral para começar a entender o que são APIs, a lógica por trás delas e alguns termos comuns.
 
 A compreensão dos conceitos básicos descritos aqui ajudarão você a seguir com o tutorial de documentação de APIs com mais clareza e fluidez.
 
@@ -18,17 +18,17 @@ Um exemplo comum de comunicação feita usando APIs acontece ao enviar os dados 
 
 Para tornar essa comunicação possível, desenvolvedores precisam de informações específicas sobre a API, como os dados esperados por ela e quais informações serão retornadas por ela em cada comunicação.
 
-A comunicação usando APIs sempre ocorrem **entre um cliente e um servidor**. O cliente é o lado que inicia a comunicação e faz a solicitação de uma informação, enquanto o servidor é o lado que recebe a solicitação e devolve uma resposta.
+A comunicação usando APIs sempre ocorre **entre um cliente e um servidor**. O cliente é o lado que inicia a comunicação e faz a solicitação de uma informação, enquanto o servidor é o lado que recebe a solicitação e devolve uma resposta.
 
 ## APIs públicas e privadas
 
 Uma API pode ser **pública** ou **privada**.
 
-Como os nomes sugerem, APIs públicas são abertas e podem receber requisições externas de qualquer origem. Uma API pública pode ser totalmente aberta e receber requisições sem nenhum tipo de autorização especial, mas também pode exigir alguma autenticação para receber o request. Tudo depende de como ela foi construída e do seu objetivo. Já as APIs privadas são de uso interno e não ficam disponíveis para o público em geral.
+Como os nomes sugerem, APIs públicas são abertas e podem receber requisições externas de qualquer origem. Uma API pública pode ser totalmente aberta e receber requisições sem nenhum tipo de autorização especial, mas também pode exigir alguma autenticação. Tudo depende de como ela foi construída e do seu objetivo. Já as APIs privadas são de uso interno e não ficam disponíveis para o público em geral.
 
-No cenário de uma empresa desenvolvedora de software, ela pode criar APIs privadas que serão usadas apenas dentro da organização. Assim, serviços internos dessa empresa podem comunicar-se entre si, enviando e recebendo dados.
+No cenário de uma empresa desenvolvedora de software, ela pode criar **APIs privadas** que serão usadas apenas dentro da organização. Assim, os sistemas dessa empresa podem enviar e receber dados entre si, internamente.
 
-Por outro lado, a empresa pode disponibilizar APIs públicas para permitir que desenvolvedores externos criem aplicativos, produtos e soluções que se integram ao sistema da empresa. Com essa integração, desenvolvedores podem criar funcionalidades que agregam novos recursos ao software original, criando novas soluções para seus usuários.
+Por outro lado, a empresa pode disponibilizar **APIs públicas** para permitir que desenvolvedores externos criem aplicativos, produtos e soluções que se integram ao sistema da empresa. Com essa integração, desenvolvedores podem criar funcionalidades que agregam novos recursos ao software original, criando novas soluções para seus usuários.
 
 ## Tipos e arquiteturas de API
 
@@ -69,6 +69,14 @@ Você pode consultar a [documentação de métodos de requisições HTTP no site
 
 Depois de processar o request com um dos métodos acima, a API devolve uma resposta (também usando o protocolo HTTP) que contém as informações resultantes da solicitação. Cada retorno devolvido pela API é chamado de **resposta**, ou **response**. (Este tutorial usa os termos de forma intercambiável. "Resposta" e "response" signficam a mesma coisa aqui.)
 
+### Autenticação em API REST
+
+Algumas APIs do tipo REST, especialmente as APIs privadas, exigem algum tipo de **autenticação** antes de receber um request. A autenticação garante a segurança das comunicações entre a aplicação e a API.
+
+Um dos meios de autenticação mais comuns é a **API Key**: um código alfanumérico que indica que a pessoa fazendo a requisição tem acesso aos recursos da API. Mas existem diversos outros meios de autenticação, os quais são analisados pelo time de engenharia e definidos no momento da implementação. Cada tipo de autenticação tem um nível de segurança e um propósito diferente.
+
+Se alguém tentar fazer uma requisição para uma API sem enviar as informações de autenticação exigidas, o servidor irá recusar o request e responderá com um código de erro. Por isso, seja qual for o meio de autenticação escolhido, ele precisa estar especificado na documentação da API. Caso contrário, a pessoa que for desenvolver uma integração usando essa API não tem como saber quais informações ela precisa enviar para se autenticar.
+
 ## Composição de um request
 
 Todo request é composto por elementos que, juntos, formam a solicitação que será feita para a API. Esses elementos podem variar para cada a API, mas suas especificações precisam ser seguidas para que a API processe a requisição com sucesso, caso contrário ela pode retornar um erro em vez da resposta esperada.
@@ -91,7 +99,7 @@ As partes que compõem um request são definidas por quem desenvolveu a API. Par
 
 APIs diferentes têm especificações diferentes de como esperam receber as requisições. Essas especificações têm diferentes níveis de complexidade e, quanto mais complexas forem, maior será a necessidade de que a API tenha uma documentação completa e clara.
 
-A documentação de APIs é muito importante para que os desenvolvedores saibam como usar a API de forma eficaz e segura. Sem a documentação, desenvolvedores não têm como saber do que a API é capaz e como usá-la.
+A documentação de APIs é muito importante para que os desenvolvedores saibam como usar a API de forma eficaz e segura. Sem a documentação, desenvolvedores não têm como saber do que a API é capaz ou como usá-la.
 
 ### OpenAPI Specification (OAS)
 
@@ -104,3 +112,7 @@ A vantagem de usar a especificação OAS é que ela pode ser lida por máquinas,
 A especificação OAS é usada principalmente para construir **documentação de referência** das APIs, mas ela é capaz de comportar também **documentação conceitual**. (A diferença entre documentação de referência e conceitual está explicada no tópico sobre [Partes que compõem a documentação de APIs](/tutoriais/api-docs/partes-da-doc/).)
 
 Você conhecerá um pouco mais sobre como usar arquivos OpenAPI na [seção sobre a ferramenta SwaggerHub](/tutoriais/api-docs/swaggerhub/) deste tutorial.
+
+---
+
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/api-docs/postman/"><button type="button" class="btn btn-dark">Testando uma API com o Postman</button></a></p>

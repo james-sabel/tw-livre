@@ -1,19 +1,23 @@
 ---
 layout: tutorial-api-docs
-title: Tutorial | Documentação de APIs - Tutorial prático - Respostas
+title: Tutorial | Documentação de APIs - Exercício prático - Respostas
 permalink: /tutoriais/api-docs/responses/
 ---
 
-# Tutorial prático - Respostas
+# Exercício prático - Respostas
 
-As respostas da requisição, também chamadas de **Responses**, são os dados que a API retorna depois de fazer a requisição. Portanto, essa seção deve descrever todos os dados que a API retorna ao fazer um request, incluindo os casos em que a requisição foi feita com **sucesso** e os que a requisição resultou em **erro**.
+Ao final deste tópico, você terá a documentação das **respostas** (responses) da API, seguindo as boas práticas desse tipo de conteúdo.
 
-A resposta de uma requisição normalmente se enquadra em um dos seguintes cenários:
+## Respostas
 
-* um **código numérico** e uma **descrição** desse código, indicando se a requisição foi feita com sucesso ou com erros
+As **respostas** da requisição, também chamadas de **responses**, são os dados que a API retorna depois de fazer a requisição. Portanto, essa seção deve descrever todos os dados que a API retorna ao fazer um request, incluindo os casos em que a requisição foi feita com **sucesso** e os que a requisição resultou em **erro**.
+
+A resposta de uma requisição normalmente tem o seguinte conteúdo:
+
+* um **código numérico** e uma **descrição** de um código numérico, o qual indica se a requisição foi feita com sucesso ou com erros
 * um **grupo de dados**, contendo as informações solicitadas pela requisição
 
-No caso de retornar um **grupo de dados**, é importante incluir um exemplo da estrutura desses dados. O exemplo ajuda o desenvolvedor a manipular os dados retornados, pois fica mais claro como as informações estarão dispostas na resposta da API. Normalmente, o exemplo da resposta é apresentado na documentação no formato **JSON** (**JavaScript Object Notation**), por ser um dos mais usados pelos desenvolvedores e por serem fáceis de interpretar, mas existem outras maneiras de documentar.
+No caso de retornar um **grupo de dados**, é importante incluir um exemplo da estrutura desses dados. O exemplo ajuda o desenvolvedor a manipular os dados retornados, pois fica mais claro como as informações estarão dispostas na resposta da API. Normalmente, o exemplo da resposta é apresentado na documentação no formato [**JSON**](https://pt.wikipedia.org/wiki/JSON), por ser um dos mais usados pelos desenvolvedores e por serem fáceis de interpretar, mas existem outras maneiras de documentar.
 
 ## Exemplo prático
 
@@ -36,7 +40,7 @@ Vamos documentar a resposta de cada um desses endpoints. Vamos supor que eles re
 
 * Documentação em Markdown:
 
-Vamos começar por alguns dos possíveis **códigos** de respostas da API. Vamos documentar apenas três códigos, mas lembre-se que existe uma lista extensa de códigos que uma requisição pode retornar. Você não precisa documentar todos os códigos, mas quanto mais você detalhar cada um na documentação, maior será a cobertura das situações que desenvolvedores possivelmente enfrentarão ao fazer uma requisição para a API.
+Vamos começar por alguns dos possíveis **códigos** de respostas da API. Vamos documentar apenas três códigos, mas tenha em mente que existe uma [lista extensa de códigos que uma requisição pode retornar](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status). Você não precisa documentar todos os códigos, mas quanto mais você detalhar cada um na documentação, maior será a cobertura das situações que desenvolvedores possivelmente enfrentarão ao fazer uma requisição para a API.
 
 > #### Respostas
 > 
@@ -182,3 +186,13 @@ Ao interpretar o conteúdo escrito em Markdown neste tópico e nas etapas anteri
 > >   "social": "@usuario - Nome da rede social"
 > > }
 > > ```
+
+### Sobre a solução apresentada neste tutorial
+
+O resultado acima é a forma final do conteúdo, o qual contém os elementos e a organização típica de uma **documentação de referência** de APIs. Esse tipo de conteúdo deve ser aliado a uma **documentação conceitual**, e então você terá todas as informações que precisa para que a API seja usada de maneira segura e eficaz.
+
+Esta documentação de referência foi escrita e formata manualmente usando o Markdown. Na próxima etapa, você conhecerá o SwaggerHub - uma das muitas ferramentas que permitem automatizar o processo de escrever e gerar a documentação de referência de uma API.
+
+---
+
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/api-docs/swaggerhub/"><button type="button" class="btn btn-dark">Exercício prático - SwaggerHub</button></a></p>

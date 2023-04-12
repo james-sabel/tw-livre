@@ -1,12 +1,14 @@
 ---
 layout: tutorial-api-docs
-title: Tutorial | Documentação de APIs - Tutorial prático - Nome, descrição e URL
+title: Tutorial | Documentação de APIs - Exercício - Nome, descrição e URL
 permalink: /tutoriais/api-docs/nome-descricao-url/
 ---
 
-# Tutorial prático - Nome, descrição e URL
+# Exercício - Nome, descrição e URL
 
-## Sobre a documentação de nome, descrição e URL
+Ao final deste tópico, você terá a documentação do **nome**, **descrição** e **URL** da API, seguindo as boas práticas desse tipo de conteúdo.
+
+## Nome, descrição e URL
 
 O **nome** da API deve aparecer em destaque no topo da documentação. O nome é a porta de entrada para a API, portanto ele precisa ser breve, mas explicativo.
 
@@ -16,9 +18,9 @@ A **URL base** é o endereço onde os serviços são executados. Na documentaç�
 
 ## Exemplo prático
 
-Suponha que você precisa documentar uma API chamada **Gerenciador de usuários**. Como o nome sugere, esta API é bem simples: ela permite administrar os usuários existentes num sistema de dados (digamos que sejam os usuários cadastrados num website).
+Suponha que você precisa documentar uma API chamada **Gerenciador de Usuários**. Como o nome sugere, esta API é bem simples: ela permite administrar os usuários existentes num sistema de dados (digamos que sejam os usuários cadastrados num website).
 
-Nesta primeira parte do tutorial, vamos construir uma documentação hipotética para a API fictícia **Gerenciador de usuários**..
+Nesta primeira parte do tutorial, vamos construir uma documentação hipotética para a API fictícia **Gerenciador de Usuários**..
 
 ### Nome e descrição da API
 
@@ -40,7 +42,7 @@ A primeira parte da documentação contém o **nome** da API e uma **descrição
 
 ### URL base
 
-Como descrito anteriormente, esta seção deve descrever a URL que será usada para enviar os requests para a API.
+Esta seção deve descrever a URL que será usada para enviar os requests para a API. Todos os requests devem acontecer nessa URL, variando apenas o path e os endpoints contidos nela.
 
 * Documentação em Markdown:
 
@@ -66,3 +68,7 @@ Ao interpretar o conteúdo escrito em Markdown, teremos a seguinte saída:
 > ## URL base
 >
 > `api.com.br/gerenciadorUsuarios/v1/`
+
+---
+
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/api-docs/requests/"><button type="button" class="btn btn-dark">Exercício prático - Requests (requisições)</button></a></p>

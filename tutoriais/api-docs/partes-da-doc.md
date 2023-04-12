@@ -36,13 +36,13 @@ Adicionalmente, a documentação conceitual pode conter as seguintes informaçõ
 * Problemas conhecidos ou previstos que podem ocorrer durante a implementação da API
 * Links para materiais complementares, tais como links externos, sites institucionais e tutoriais
 
-Muitas vezes a documentação conceitual é negligenciada, mas ela tem o potencial de ser o fator decisivo na adoção da aplicação. Se uma pessoa não entende o que a API faz ou não tem certeza se ela atende ao que ela precisa, essa pessoa pode nem tentar usar a aplicação.
+Muitas vezes a documentação conceitual é negligenciada, mas ela tem o potencial de ser o fator decisivo na adoção da aplicação. Se uma pessoa não entende o que a API faz ou não tem certeza se atende ao que ela precisa, essa pessoa pode nem chegar a tentar usar a aplicação.
 
 ## Documentação de referência
 
 A **documentação de referência** contém os seguintes detalhes dos requests:
 
-* lista de requests que a API pode fazer
+* detalhes dos requests que a API pode fazer
 * como fazer cada request
 * quais dados são retornados pelos requests
 
@@ -59,22 +59,20 @@ Normalmente, a documentação de referência é composta pelas seguintes partes:
 * Nome e descrição da API
 * URL base para fazer as requisições (requests)
 * Lista de paths, incluindo métodos e endpoints
-* Cabeçalho (Header) da requsição
-* Corpo (Body) da requisição
+* Header (cabeçalho) da requsição
+* Body (corpo) da requisição
 * Responses (respostas)
-
-Nos próximos tópicos, este tutorial irá guiar você pela documentação de cada uma dessas partes, até chegarmos na documentação completa de uma API fictícia.
-
-Este tutorial assume que você conhece Markdown e a sintaxe de escrita desta linguagem.
-
-O objetivo do tutorial é mostrar como uma documentação de API pode ser organizada num arquivo escrito em Markdown. Não é o objetivo deste tópico ensinar a sintaxe do Markdown e nem como escrever usando essa notação.
-
-## Ferramentas necessárias
-
-Este tutorial usará o [Markdown Online Editor (Dillinger.io)](https://dillinger.io/) - uma ferramenta online de edição e interpretação de Markdown. Mas você pode usar qualquer editor de texto e Markdown de sua preferência.
 
 ## Documentando cada parte da API
 
-A seguir, este tutorial irá mostrar cada passo da construção de uma documentação de API usando Markdown. Cada seção tem um propósito bem definito e delimitado, o qual você aprender mais no tópico [Partes que compõem a documentação de APIs](/tutoriais/api-docs/partes-da-doc/).
+Nos próximos tópicos, este tutorial irá guiar você pela documentação de cada uma dessas partes. Faremos alguns exercícios práticos até chegarmos na documentação completa de uma API fictícia.
 
-A API de exemplo deste tutorial é bem simples, servindo para obter informações sobre usuários que estão cadastrados em um sistema fictício.
+**Requisitos e recomendações:**
+
+* Os exercícios práticos usarão as terminologias técnicas de APIs com frequência. Se você não está familiarizado com elas, é recomendado ler o [tópico de introdução a APIs](/tutoriais/api-docs/introducao-apis/) antes de prosseguir.
+* Este tutorial apresentará trechos de documentação escritos em **Markdown**. Você pode replicar as etapas usando um editor como o [Markdown Online Editor (Dillinger.io)](https://dillinger.io/), mas você pode usar qualquer outra ferramenta de sua preferência e que interprete Markdown.
+* Este tutorial assume que você conhece Markdown e a sintaxe de escrita desta linguagem. O objetivo é mostrar como uma documentação de API pode ser organizada num arquivo escrito em Markdown. *Não* é o objetivo deste tópico ensinar a sintaxe do Markdown e nem como escrever usando essa notação.
+
+---
+
+<p class="proxima-unidade"><b>Próximo:</b> <a href="/tutoriais/api-docs/nome-descricao-url/"><button type="button" class="btn btn-dark">Exercício prático - Nome, descrição e URL</button></a></p>
