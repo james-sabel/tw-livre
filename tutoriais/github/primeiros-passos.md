@@ -4,6 +4,8 @@ title: Tutorial | GitHub e open source - Primeiros passos
 permalink: /tutoriais/github/primeiros-passos/
 ---
 
+<!-- Este documento está com uma regra para ser IGNORADO no arquivo _config.yml. A regra deve ser removida depois de finalizar este conteúdo. -->
+
 # Primeiros passos
 
 Este tópico lista o que você precisa fazer para mexer com Git e GitHub, e para começar a contribuir com projetos open source.
