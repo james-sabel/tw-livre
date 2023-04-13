@@ -16,6 +16,10 @@ A compreensão dos conceitos básicos descritos aqui ajudarão você a seguir co
 
 Um exemplo comum de comunicação feita usando APIs acontece ao enviar os dados de pagamento num site de compras. Ao fazer isso, o site irá usar APIs para enviar e validar os dados do cartão de crédito com a instituição operadora do cartão. Da mesma forma, o site vai usar APIs para obter o retorno da operadora, com a aprovação ou rejeição da transação com o cartão.
 
+<p style="text-align: center; margin-top: 40px; margin-bottom: 40px;">
+    <img src="/res/img/api-docs/conceito-01.png" alt-text="Exemplo de comunicação entre loja virtual e operadora de cartão de crédito" title="Exemplo de comunicação entre loja virtual e operadora de cartão de crédito" />
+</p>
+
 Para tornar essa comunicação possível, desenvolvedores precisam de informações específicas sobre a API, como os dados esperados por ela e quais informações serão retornadas por ela em cada comunicação.
 
 A comunicação usando APIs sempre ocorre **entre um cliente e um servidor**. O cliente é o lado que inicia a comunicação e faz a solicitação de uma informação, enquanto o servidor é o lado que recebe a solicitação e devolve uma resposta.
@@ -45,9 +49,13 @@ Cada arquitetura tem suas próprias vantagens e desvantagens e são usadas em di
 
 Aqui no tutorial do TW Livre vamos falar somente sobre a documentação de APIs que seguem a arquitetura **REST**, por causa da sua popularidade e aplicação nos dias atuais.
 
-### REST API
+### API REST
 
 Existem diversas maneiras de um cliente enviar uma solicitação para um servidor usando APIs. No caso das APIs REST, a solicitação é feita usando um **protocolo HTTP**. Cada solicitação é chamada de **requisição**, também conhecida como **request**. (Este tutorial usa os termos de forma intercambiável. "Requisição", "request" e "solicitação" signficam a mesma coisa aqui.)
+
+<p style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/res/img/api-docs/conceito-02.png" alt-text="Diagrama de comunicação de uma API REST" title="Diagrama de comunicação de uma API REST" />
+</p>
 
 O protocolo HTTP é uma maneira de representar a interação do cliente com o servidor. Esse protocolo é responsável por dizer *como* o request precisa ser feito, de forma que o servidor entenda:
 
@@ -100,6 +108,40 @@ As partes que compõem um request são definidas por quem desenvolveu a API. Par
 APIs diferentes têm especificações diferentes de como esperam receber as requisições. Essas especificações têm diferentes níveis de complexidade e, quanto mais complexas forem, maior será a necessidade de que a API tenha uma documentação completa e clara.
 
 A documentação de APIs é muito importante para que os desenvolvedores saibam como usar a API de forma eficaz e segura. Sem a documentação, desenvolvedores não têm como saber do que a API é capaz ou como usá-la.
+
+### Exemplos reais
+
+Para exemplificar a composição de um request e como ele pode ser descrito, vamos analisar alguns elementos de API na documentação de soluções reais do mercado.
+
+A imagem abaixo foi tirada da [documentação do **Twilio**](https://www.twilio.com/docs). Ela mostra como o Twilio apresenta o **método**, a **URL**, o **PATH** e o **Endpoint** da requisição. Repare também como eles descrevem o objetivo da requisição, o que ela faz e o que ela retorna.
+
+<p style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/res/img/api-docs/conceito-03.png" alt-text="Exemplo de request na documentação do Twilio" title="Exemplo de request na documentação do Twilio" />
+</p>
+
+* **Método** = `POST`
+* **URL** = `https://api.twilio.com`
+* **Path/endpoint** = `/2010-04-01/Accounts.json`
+
+Sobre a **autenticação**, o Twilio apresenta exemplos de comandos e descreve os tipos de autenticação aceitos. Além disso, a documentação também explica **onde e como** obter as credenciais necessárias.
+
+<p style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/res/img/api-docs/conceito-05.png" alt-text="Exemplo de request na documentação do Twilio" title="Exemplo de request na documentação do Twilio" />
+</p>
+
+Para as **respostas**, o Twilio descreve o que é retornado quando a requisição é feita com sucesso e lista os códigos de erro. Perceba na imagem abaixo como, além dos códigos, o Twilio explica a causa do erro e o que precisa ser verificado para resolver.
+
+<p style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/res/img/api-docs/conceito-04.png" alt-text="Exemplo de request na documentação do Twilio" title="Exemplo de request na documentação do Twilio" />
+</p>
+
+Por fim, a imagem abaixo mostra os **parâmetros do Body** de um request na [documentação de APIs do **Stripe**](https://stripe.com/docs). Ela lista, de duas maneiras diferentes, todos os parâmetros esperados pela API: uma **lista descritiva** com todos os atributos de cada parâmetro, e um **bloco de código** mostrando os mesmos parâmetros da forma como eles são estruturados dentro do protocolo HTTPS.
+
+<p style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/res/img/api-docs/conceito-06.png" alt-text="Exemplo de request na documentação do Twilio" title="Exemplo de request na documentação do Twilio" />
+</p>
+
+Como é possível notar, apesar de a documentação de APIs ter um padrão das informações que ela precisa ter, **não existe uma forma única de apresentá-las na documentação**. Existem diretrizes e boas práticas que direcionam a documentação para ser mais **útil** e **familiar** para desenvolvedores, mas você pode organizá-las de diferentes maneiras. Algumas das maneiras mais tradicionais de documentar APIs serão apresentadas ao longo deste tutorial, mas você pode usar a criatividade para criar e adaptar outras formas.
 
 ### OpenAPI Specification (OAS)
 
