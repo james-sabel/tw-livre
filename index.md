@@ -16,6 +16,6 @@ permalink: /
     <div class="col-sm-12">
         <p style="font-size: 50px">Conheça o projeto:</p>
         <br />
-        <a href="/sobre/"><button type="button" class="btn btn-dark btn-lg"><i class="fab fa-github" aria-hidden="true"></i> TW Livre no GitHub</button></a>
+        <a href="https://github.com/james-sabel/tw-livre" target="_blank"><button type="button" class="btn btn-dark btn-lg"><i class="fab fa-github" aria-hidden="true"></i> TW Livre no GitHub</button></a>
     </div>
 </div>
