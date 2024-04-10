@@ -13,7 +13,6 @@ Com o projeto open source no GitHub, o TWL vira um espaço colaborativo onde as 
 ### Website e redes
 
 * [TW Livre](https://www.twlivre.org/)
-* Twitter: [@tw_livre](https://twitter.com/tw_livre)
 
 ### Roadmap (Futuro)
 
