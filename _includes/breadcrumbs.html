@@ -1,0 +1,13 @@
+<div id="breadcrumbs">
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  {% unless page.url == '/' %}
+    TW Livre
+  {% endunless %}
+  {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+      > {{ page.title }}
+    {% else %}
+      > {{ crumb | replace: '-', ' ' | capitalize }}
+      {% endif %}
+  {% endfor %}
+  </div>
