@@ -1,4 +1,4 @@
-name: Update deploy branch with dist folder contents
+name: Update deploy branch with site folder contents
 
 on:
   workflow_dispatch:
@@ -6,26 +6,18 @@ on:
     paths-ignore:
     - '.github/**' # Ignore changes towards the .github directory
     branches:
-    - master # Only trigger on the main branch
+    - master # Only trigger on the master branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v2
-
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build
-      run: bundle exec jekyll build
+      uses: actions/checkout@v3
       
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4.0.0
+      uses: peaceiris/actions-gh-pages@v4
       with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
         publish_branch: deploy
