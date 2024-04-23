@@ -18,8 +18,6 @@ Com o projeto open source no GitHub, o TWL vira um espaço colaborativo onde as 
 
 O objetivo do TWL é ser um espaço **colaborativo** para compartilhar conhecimento e tutoriais sobre redação técnica. Os temas podem variar entre processos, ferramentas e técnicas.
 
-Hoje só o curso essencial de TW está disponível, mas a intenção é expandir os temas com o tempo.
-
 Uma lista de sugestões e ideias de assuntos está disponível no [guia de contribuição](contribuicoes.md). Leia o guia para saber também como apoiar.
 
 ### Por que open source?
