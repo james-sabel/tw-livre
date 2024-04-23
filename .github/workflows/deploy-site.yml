@@ -14,6 +14,12 @@ jobs:
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Build site
+      run: bundler exec jekyll build
       
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
